@@ -1,6 +1,6 @@
 ---
 name: vc-weekly-report
-description: 실리콘밸리 VC 주간 리포트(Crunchbase Top 10 + 섹터·단계·투자자·엑시트·시사점)를 조사해 data JSON을 채우고 HTML로 빌드해 claude/pages에 push한다. 매주 리포트를 만들 때 사용.
+description: 실리콘밸리 VC 주간 리포트(Crunchbase Top 10 + 섹터·단계·엑시트·시사점)를 조사해 data JSON을 채우고 HTML로 빌드해 claude/pages에 push한다. 매주 리포트를 만들 때 사용.
 ---
 
 # 실리콘밸리 VC 주간 리포트
@@ -17,8 +17,8 @@ description: 실리콘밸리 VC 주간 리포트(Crunchbase Top 10 + 섹터·단
 | 정보원 | 무엇을 볼까 | 검색 방법 |
 |---|---|---|
 | **Crunchbase News** (news.crunchbase.com) | ① 주간 "The Week's 10 Biggest Funding Rounds" (보통 금요일, 금~목 집계. **이 목록은 미국 기업만 집계하므로 출발점일 뿐, 우리 Top 10은 글로벌 기준**) ② 분기·월간 집계(총액, 단계별, AI 비중) ③ 섹터 기사(핀테크·바이오·클린테크) ④ "5 Interesting Startup Deals" (초기 단계) ⑤ Exclusive 시드 기사 | WebFetch 우선. 막히면 WebSearch에 `allowed_domains:["news.crunchbase.com"]` |
-| **TechCrunch** (techcrunch.com) | 딜 카드의 1차 출처. 해당 주 펀딩 기사 본문(창업자, 투자자 명단, 직전 라운드, 인용문, 리스크)을 **WebFetch로 실제로 열어 읽는다**. 검색 스니펫만으로 카드를 쓰지 말 것. 펀드 클로즈·인수 기사도 여기서 | WebSearch `allowed_domains:["techcrunch.com"]`로 URL 찾고 WebFetch로 본문 읽기 |
-| **Axios Pro Rata** (axios.com/pro/all-deals/YYYY/MM/DD/...) | 매일 Venture Capital Deals, PE, **Fundraising(신규 펀드)**, M&A | WebSearch `allowed_domains:["axios.com"]`, 날짜별로 월~금 5회 |
+| **TechCrunch** (techcrunch.com) | 딜 카드의 1차 출처. 해당 주 펀딩 기사 본문(창업자, 투자자 명단, 직전 라운드, 인용문, 리스크)을 **WebFetch로 실제로 열어 읽는다**. 검색 스니펫만으로 카드를 쓰지 말 것. 인수 기사도 여기서 | WebSearch `allowed_domains:["techcrunch.com"]`로 URL 찾고 WebFetch로 본문 읽기 |
+| **Axios Pro Rata** (axios.com/pro/all-deals/YYYY/MM/DD/...) | 매일 Venture Capital Deals, PE, M&A | WebSearch `allowed_domains:["axios.com"]`, 날짜별로 월~금 5회 |
 | **StrictlyVC** (newsletter.strictlyvc.com) | Massive Fundings / New Fundings / **New Funds** / Exits | WebSearch `allowed_domains:["strictlyvc.com"]` |
 | 보조 | TechCrunch, Bloomberg, STAT(바이오), 회사 보도자료, Dealroom | 딜별 교차 확인 |
 
@@ -54,12 +54,10 @@ description: 실리콘밸리 VC 주간 리포트(Crunchbase Top 10 + 섹터·단
 | `sectors` | 1. 섹터별 동향 | **AI / 바이오·헬스 / 국방·우주·하드테크 / 핀테크·커머스 / 기후·에너지** 5개 고정. `stat`="금액 · 건수", `text`= 이번 주 딜 + Top 10 밖 딜(Axios·StrictlyVC) + Crunchbase 분기/섹터 데이터로 맥락 3~5문장. 딜이 없으면 "이번 주 큰 딜 없음"과 최근 섹터 데이터 |
 | `stages` | 2. 단계별 표 | 행 3개 고정: 시드·프리시드 / 시리즈 A / 시리즈 B~E·성장. `deals`는 `<br>`로 구분, `note`= 관찰 1~2문장 |
 | `stage_note` | 단계 요약 | 메가라운드($100M+) 비중, 메가 시드·A 존재 여부, Crunchbase 최신 분기 단계별 수치, 굵은 결론 1줄 |
-| `investors` | 3. 투자자 | 4~6명. 이번 주 리드/참여 딜을 묶어 "어떤 테마에 베팅 중인지" |
-| `funds` | 3. 신규 펀드 | 이번 주 클로즈 우선, 없으면 직전 주 "참고", 모집 중(SEC 신고) |
-| `exits` | 4. M&A·IPO | 이번 주 VC 지원 스타트업 인수, IPO 진행(대형 AI IPO 일정), 최신 분기 엑시트 통계. 없으면 "확인하지 못함"을 명시 |
-| `implications` | 5. 시사점 | 3개. `<b>결론.</b>` + 근거 |
-| `watch` | 5. 다음 주 체크리스트 | 4개. 예정된 IPO/실적/집계 발표, 협상 중인 메가라운드 |
-| `sources` | 6. 출처 | 15~25개. Crunchbase·Axios·StrictlyVC 기사 URL 우선 |
+| `exits` | 3. M&A·IPO | 이번 주 VC 지원 스타트업 인수, IPO 진행(대형 AI IPO 일정), 최신 분기 엑시트 통계. 없으면 "확인하지 못함"을 명시 |
+| `implications` | 4. 시사점 | 3개. `<b>결론.</b>` + 근거 |
+| `watch` | 4. 다음 주 체크리스트 | 4개. 예정된 IPO/실적/집계 발표, 협상 중인 메가라운드 |
+| `sources` | 5. 출처 | 15~25개. Crunchbase·Axios·StrictlyVC 기사 URL 우선 |
 | `limits` | 데이터 한계 | 막힌 정보원, 추정 순위, 미확인 값, 회사 주장 수치 |
 
 텍스트 안 HTML은 `<b>`, `<br>`, `<a href>`만. 배지는 `[미확인]`, `[추정]` 문자열.

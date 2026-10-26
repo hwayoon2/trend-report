@@ -14,7 +14,7 @@ CSS = open(os.path.join(ROOT, "tools", "report.css"), encoding="utf-8").read()
 FONT = '<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">'
 
 REQ_TOP = ["start", "end", "crunchbase", "headline", "lead", "trends", "deals", "sectors", "stages",
-           "stage_note", "investors", "funds", "exits", "implications", "watch", "sources", "limits"]
+           "stage_note", "exits", "implications", "watch", "sources", "limits"]
 REQ_DEAL = ["rank", "name", "sector", "amount_m", "round", "valuation", "lead", "hq",
             "what", "funding", "history", "metrics", "why", "sources"]
 
@@ -74,7 +74,7 @@ def page(d):
               + "".join(f'<tr><td><b>{s["stage"]}</b></td><td>{badge(s["deals"])}</td><td>{badge(s["note"])}</td></tr>' for s in d["stages"])
               + "</tbody></table></div>")
     toc = [("trend", "시장의 방향"), ("chart", "Top 10"), ("cards", "딜 카드"), ("s1", "1. 섹터"), ("s2", "2. 단계"),
-           ("s3", "3. 투자자·펀드"), ("s4", "4. 엑시트"), ("s5", "5. 시사점"), ("s6", "6. 출처")]
+           ("s3", "3. 엑시트"), ("s4", "4. 시사점"), ("s5", "5. 출처")]
     others = f'<h2>Top 10 밖 주목할 딜</h2>{ul(d["others"], "small")}' if d.get("others") else ""
     return f'''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Crunchbase Top 10 | {S}~{E}</title>
 {FONT}<style>{CSS}</style></head><body><div class="w">
@@ -88,10 +88,9 @@ def page(d):
 {others}
 <h2 id="s1">1. 섹터별 동향</h2>{sectors}
 <h2 id="s2">2. 단계별 동향 — 시드·시리즈 A vs 메가라운드</h2>{stages}<p>{badge(d["stage_note"])}</p>
-<h2 id="s3">3. 주목할 투자자 · 신규 펀드</h2><h4>투자자</h4>{ul(d["investors"])}<h4>신규 펀드</h4>{ul(d["funds"])}
-<h2 id="s4">4. M&amp;A · IPO · 엑시트</h2>{ul(d["exits"])}
-<h2 id="s5">5. 시사점 · 다음 주에 지켜볼 것</h2><h4>시사점</h4>{ul(d["implications"])}<h4>다음 주 체크리스트</h4>{ul(d["watch"])}
-<h2 id="s6">6. 출처</h2><ul class="srcs">{"".join(f'<li><a href="{u}">{html.escape(t)}</a></li>' for t, u in d["sources"])}</ul>
+<h2 id="s3">3. M&amp;A · IPO · 엑시트</h2>{ul(d["exits"])}
+<h2 id="s4">4. 시사점 · 다음 주에 지켜볼 것</h2><h4>시사점</h4>{ul(d["implications"])}<h4>다음 주 체크리스트</h4>{ul(d["watch"])}
+<h2 id="s5">5. 출처</h2><ul class="srcs">{"".join(f'<li><a href="{u}">{html.escape(t)}</a></li>' for t, u in d["sources"])}</ul>
 <h2>데이터 한계</h2><p class="small">{badge(d["limits"])} 투자 조언이 아닙니다.</p>
 </div></body></html>''', tot, top
 

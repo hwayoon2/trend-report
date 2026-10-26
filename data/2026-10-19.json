@@ -385,21 +385,6 @@
   }
  ],
  "stage_note": "Top 10 전부가 $200M 이상 메가라운드이고, 그중 3건(Flapping Airplanes, Warp, Warhound)은 시드·A 단계입니다. 분기 흐름으로 보면 Q3 북미 초기 단계(시리즈 A·B) 투자는 $20.6B로 직전 분기 사상 최고치보다 줄었지만 전년보다 많고, 시드는 $5B 이상(잠정)입니다. 후기·성장 단계는 $66.5B로 전 분기 대비 크게 줄었습니다(<a href=\"https://news.crunchbase.com/venture/q3-2026-north-america-startup-funding-falls-ai-exits-data/\">Crunchbase Q3</a>). <b>\"초기 단계는 꾸준하고, 숫자를 흔드는 건 소수 메가딜\"</b>이라는 구도가 이어집니다.",
- "investors": [
-  "<b>Sequoia</b> — 이번 주 가장 바쁜 투자사입니다. Whop 리드(Doug Leone 이사회 합류), Blacksmith 리드($1B 밸류), Warhound 참여, Flapping Airplanes 후속 참여(<a href=\"https://www.axios.com/pro/all-deals/2026/10/21/pro-rata-premium-whop-blacksmith-hackensack-meridian\">Axios</a>).",
-  "<b>Atreides Management</b> — Legora($8.8B) 리드에 Flapping Airplanes에도 참여했습니다. 헤지펀드형 성장 투자자가 AI 메가라운드의 리드 자리까지 올라온 사례입니다.",
-  "<b>Lux Capital</b> — Flapping Airplanes 공동 리드에 Warp Sciences도 참여했습니다. '과학 기반 AI' 테마에 연달아 베팅하고 있습니다.",
-  "<b>Lightspeed</b> — Warp Sciences를 리드했습니다. 7월에는 OpenAI 연구원 Miles Wang의 AI 신약 스타트업 리드 협의가 보도됐고(TechCrunch, 당사자는 수치를 부인), AI 신약 쪽 비중을 키우고 있습니다.",
-  "<b>Bristol Myers Squibb</b> — 빅파마가 AI 신약 회사(Pathos)의 라운드를 직접 리드했습니다. 전략적 투자자가 VC 역할을 하는 사례입니다.",
-  "<b>OrbiMed · Janus Henderson</b> — Star Therapeutics $200M 공동 리드입니다. 헬스케어 전문 펀드와 공모시장 자산운용사가 함께 큰 수표를 썼습니다(Janus는 Tenstorrent의 Fidelity·T. Rowe처럼 공모시장 기관의 비상장 진출 흐름).",
-  "<b>In-Q-Tel · 8VC</b> — Warhound에 참여했습니다. 국방·정보기관 자금이 바이오 영역까지 들어왔습니다."
- ],
- "funds": [
-  "<b>Inspired Capital Fund IV</b> — $450M 클로즈(10/20). Alexa von Tobel·Penny Pritzker가 2019년 세운 뉴욕 VC로, 누적 운용자산은 약 $1.4B입니다. 1~3호는 $200M·$281M·$330M였고, 연 10개 안팎의 회사에 $1M~$15M을 시드~시리즈 A로 투자하며 피지컬 AI·양자 같은 신흥 테마를 노립니다. 포트폴리오에서 MosaicML(Databricks 인수) 등 10건 이상 엑시트가 있다고 밝혔습니다(<a href=\"https://techcrunch.com/2026/10/20/inspired-capital-closes-450m-fourth-fund-as-new-york-pushes-back-on-silicon-valleys-gravitational-pull/\">TechCrunch</a>).",
-  "<b>Seaya</b> — 유럽 스타트업 펀드 €600M 조성(<a href=\"https://www.axios.com/pro/all-deals/2026/10/22/pro-rata-premium-apex-xona-davids-bridal-skullcandy\">Axios</a>).",
-  "<b>참고(직전 주)</b> — Pear VC 5호 $333M(10/14, 시드 전문), Endeavor Catalyst 5호 $320M(10/7).",
-  "<b>모집 중</b> — Benchmark가 창업자 펀드 약 $352M을 SEC에 신고했고, Anti Fund(Jake Paul 등)는 2호 $400M을 추진 중입니다(StrictlyVC)."
- ],
  "exits": [
   "<b>이번 주 VC 지원 스타트업 인수</b> — OpenAI가 AI 바이오 소프트웨어 스타트업 Orchestra Bio를 인수했습니다(10/20, 조건 비공개). 약 $20M을 조달한 4년 차 회사로 a16z·Atria·8VC가 투자했고, 팀과 기술은 OpenAI의 생명과학 모델 Rosalind와 Rosalind Workbench에 합류합니다. TechCrunch는 \"짓밟히지 않고 흡수됐다\"고 표현했습니다(<a href=\"https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%E2%81%A0-to-beef-up-its-biotech-business/\">TechCrunch</a>).",
   "<b>Anthropic IPO</b> — Bloomberg(10/1)에 따르면 11/9 주부터 공식 마케팅을 시작해 추수감사절 전 상장을 노립니다. TechCrunch(CNBC 인용)에 따르면 Anthropic은 5월 $965B 밸류로 $65B를 조달했고 6월 비공개로 상장을 신청했으며 IPO 밸류 $1.5~2T를 목표로 합니다. OpenAI도 6월 비공개 신청을 했습니다. 공식 S-1은 아직 확인되지 않았습니다 [미확인].",
