@@ -16,7 +16,8 @@ description: 실리콘밸리 VC 주간 리포트(Crunchbase Top 10 + 섹터·단
 ## 1. 정보원 (우선순위)
 | 정보원 | 무엇을 볼까 | 검색 방법 |
 |---|---|---|
-| **Crunchbase News** (news.crunchbase.com) | ① 주간 "The Week's 10 Biggest Funding Rounds" (보통 금요일, **미국 기업만**, 금~목 집계) ② 분기·월간 집계(총액, 단계별, AI 비중) ③ 섹터 기사(핀테크·바이오·클린테크) ④ "5 Interesting Startup Deals" (초기 단계) ⑤ Exclusive 시드 기사 | WebFetch 우선. 막히면 WebSearch에 `allowed_domains:["news.crunchbase.com"]` |
+| **Crunchbase News** (news.crunchbase.com) | ① 주간 "The Week's 10 Biggest Funding Rounds" (보통 금요일, 금~목 집계. **이 목록은 미국 기업만 집계하므로 출발점일 뿐, 우리 Top 10은 글로벌 기준**) ② 분기·월간 집계(총액, 단계별, AI 비중) ③ 섹터 기사(핀테크·바이오·클린테크) ④ "5 Interesting Startup Deals" (초기 단계) ⑤ Exclusive 시드 기사 | WebFetch 우선. 막히면 WebSearch에 `allowed_domains:["news.crunchbase.com"]` |
+| **TechCrunch** (techcrunch.com) | 딜 카드의 1차 출처. 해당 주 펀딩 기사 본문(창업자, 투자자 명단, 직전 라운드, 인용문, 리스크)을 **WebFetch로 실제로 열어 읽는다**. 검색 스니펫만으로 카드를 쓰지 말 것. 펀드 클로즈·인수 기사도 여기서 | WebSearch `allowed_domains:["techcrunch.com"]`로 URL 찾고 WebFetch로 본문 읽기 |
 | **Axios Pro Rata** (axios.com/pro/all-deals/YYYY/MM/DD/...) | 매일 Venture Capital Deals, PE, **Fundraising(신규 펀드)**, M&A | WebSearch `allowed_domains:["axios.com"]`, 날짜별로 월~금 5회 |
 | **StrictlyVC** (newsletter.strictlyvc.com) | Massive Fundings / New Fundings / **New Funds** / Exits | WebSearch `allowed_domains:["strictlyvc.com"]` |
 | 보조 | TechCrunch, Bloomberg, STAT(바이오), 회사 보도자료, Dealroom | 딜별 교차 확인 |
@@ -24,7 +25,9 @@ description: 실리콘밸리 VC 주간 리포트(Crunchbase Top 10 + 섹터·단
 - WebFetch가 막히면(ENOTFOUND/403) 검색 스니펫으로 재구성하고 `limits`에 **어떤 정보원이 막혔는지** 적는다.
 - Crunchbase 기사 본문을 못 열면: `"<기사 제목>" + 회사명`으로 여러 번 검색해 순위 스니펫을 모은다. 확인 못 한 순위는 `rank_estimated: true`.
 - **다른 주 회차와 혼동 금지**: 기사 발행일이 START~END 안인지, 그 기사의 집계 기간이 무엇인지 확인해 `crunchbase.note`에 적는다.
-- Crunchbase Top 10이 미국 기준이라 빠진 해외 대형 딜(예: 유럽 $500M+)은 `others`에 넣는다.
+- **Top 10은 글로벌 기준**: Crunchbase 주간 목록(미국만) 10개에 같은 기간 해외 기업의 확정 발표 딜(TechCrunch·Axios·StrictlyVC·Dealroom·Sifted·Tech.eu·Calcalist·회사 발표)을 합쳐 금액순으로 다시 10개를 뽑는다. 해외 딜 확인 절차: ① 위 정보원에서 해당 주 유럽·이스라엘·아시아 $100M+ 딜 검색 ② 발표일이 대상 주 안인지 확인 ③ 보도만 있고 회사·투자자 확인이 없는 딜("in talks", 익명 소스)은 Top 10에 넣지 않고 `others`에 `[미확인]`으로.
+- 해외 딜은 `hq` 앞에 국가를 쓰고, `crunchbase.note`에 "Crunchbase 미국 목록 + 해외 N건 추가, 금액순 재정렬"을 적는다. Crunchbase 목록에서 밀려난 딜은 `others`로 옮긴다. 동액은 공동 순위.
+- 해외 딜을 빠짐없이 확인할 수 없으면 `limits`에 어느 지역을 못 봤는지 적는다.
 
 ## 2. 딜 카드 10개 (페이지의 주인공) — 필드별 기준
 각 딜마다 **회사 발표 + 주요 매체 1~2개**를 더 찾는다. 수치는 2개 출처로 교차 확인. 확인 안 되면 `[미확인]`. 추측 금지.
