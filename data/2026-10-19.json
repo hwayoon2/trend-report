@@ -1,0 +1,503 @@
+{
+ "start": "2026-10-19",
+ "end": "2026-10-25",
+ "crunchbase": {
+  "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-biotech-robotics-tenstorrent/",
+  "title": "The Week’s 10 Biggest Funding Rounds: AI Drives A Varied Lineup Of Large Financings",
+  "note": "10/23 발행, 미국 기업 10/17~10/23 집계"
+ },
+ "headline": "Tenstorrent $1.5B·Flapping Airplanes $1B가 이끈 주간, AI 칩·네오랩·AI 신약·디펜스가 Top 10 합계 약 $4.2B",
+ "lead": "1~2위가 합계의 60%를 차지합니다. 10건 중 6건이 AI(칩·모델·인프라·신약·산업)이고, 우주·국방·자율비행이 다음 축입니다.",
+ "top_sector": "AI 6건",
+ "top_sector_note": "최다 섹터 (AI 신약 2건 포함)",
+ "trends": [
+  "<b>AI 인프라의 무게중심이 '학습'에서 '추론 비용'으로.</b> Tenstorrent가 Intel·Qualcomm 인수 제안을 거절하고 $1.5B를 받았습니다. 엔비디아 대안 칩에 공모시장 기관(Fidelity·T. Rowe)까지 들어왔습니다.",
+  "<b>'네오랩' 붐.</b> 제품·매출 없는 Flapping Airplanes가 9개월 만에 밸류 4배($6B)가 됐습니다. 스케일링 너머의 새 패러다임에 대한 옵션 베팅이자 과열 신호이기도 합니다.",
+  "<b>AI가 실험실·공장·하늘로 '물리 세계'에 진입.</b> AI 신약(Pathos, Warp Sciences), 산업 설비(Tractian), 인프라 시뮬레이션(ASI), 자율비행(Reliable)이 이번 주 Top 10의 절반입니다.",
+  "<b>디펜스·국가안보가 두 번째 축.</b> GPS 재밍 대응(Xona), 군견 바이오(Warhound), 군 계약을 등에 업은 ASI·Reliable까지 '국내 공급망·안보' 논리가 투자 근거로 반복됩니다."
+ ],
+ "deals": [
+  {
+   "rank": 1,
+   "rank_estimated": false,
+   "name": "Tenstorrent",
+   "sector": "AI 반도체",
+   "amount_m": 1500,
+   "round": "Series E",
+   "valuation": "$6.2B (post)",
+   "lead": "Trace Capital, Innovation X",
+   "hq": "미국 캘리포니아 산타클라라 · 2016년 설립",
+   "what": "엔비디아 GPU를 대체할 AI 칩과 서버를 만드는 회사입니다. 칩 설계 표준으로 무료 개방형 규격인 RISC-V를 쓰고, AI 연산 코어 'Tensix'를 얹은 'Blackhole' 칩을 만듭니다. 이 칩 32개를 묶은 'Galaxy' 서버(FP8 23 PFLOPS)를 2026년 4월부터 출하했습니다. 돈은 세 군데서 법니다. ① 데이터센터·클라우드에 서버를 팔고 ② 삼성·LG 같은 칩 설계사에 CPU·AI 코어 IP를 라이선스하고 ③ 오픈 웨이트 LLM 추론 서비스를 제공합니다. CEO Jim Keller는 AMD Zen, 애플 A 시리즈, 테슬라 FSD 칩을 설계한 업계 전설입니다.",
+   "funding": "Trace Capital과 Innovation X가 리드했습니다. Fidelity, T. Rowe Price, Morgan Stanley, ARK Invest, Eclipse, Tether, XTX Markets, Sandisk 등 공모시장 기관과 전략투자자가 대거 참여했습니다. 발표일은 10/19입니다.",
+   "history": "2024년 12월 Series D $693M(post 약 $2.6B, Bezos Expeditions·Samsung Securities·AFW Partners) → 이번 $6.2B로 약 2.4배 올랐습니다. 직전 밸류는 출처에 따라 pre $2B로 적힌 곳도 있습니다.",
+   "metrics": "공개 매출은 없습니다 [미확인]. 회사 측 벤치마크로는 16대 클러스터에서 DeepSeek-R1 671B를 사용자당 350 토큰/초 이상으로 돌렸습니다. 2차 출처에 따르면 회사는 추론 비용을 100만 토큰당 약 $6로 제시해 엔비디아 GB300 NVL72(약 $30)와 비교합니다 [미확인].",
+   "why": "<b>'추론(inference) 비용'이 AI 인프라의 새 전장이 됐다는 신호입니다.</b> 모델 학습보다 서비스 운영(추론) 비용이 훨씬 커지면서, 엔비디아보다 싸고 커스터마이즈하기 쉬운 칩에 기관 자금이 몰립니다. Keller는 5월 Galaxy로 DeepSeek를 시연한 뒤 투자자 태도가 바뀌었다고 말했습니다. 실제 하드웨어 출하와 성능이 증명되자 돈이 들어왔다는 뜻입니다. Bloomberg 보도에 따르면 Intel·Qualcomm의 인수 제안을 거절하고 독립 자금조달을 택했습니다. 'AI 칩 독립 기업'에 대한 시장 신뢰가 그만큼 높다는 뜻입니다. 다만 대규모 상용 매출은 아직 검증 전입니다.",
+   "sources": [
+    [
+     "Crunchbase",
+     "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-biotech-robotics-tenstorrent/"
+    ],
+    [
+     "Dealroom",
+     "https://dealroom.co/news/163940-tenstorrent-raises-1-5b-series-e-doubling-valuation-to-6-2b/"
+    ],
+    [
+     "DCD",
+     "https://datacenterdynamics.com/en/news/ai-chip-startup-tenstorrent-raises-15bn-at-62bn-valuation"
+    ],
+    [
+     "FourWeekMBA",
+     "https://fourweekmba.com/ai-nvidia-rival-tenstorrent-raises-1-5b-at-a-6-2b-valuation/"
+    ]
+   ],
+   "site": "https://tenstorrent.com"
+  },
+  {
+   "rank": 2,
+   "rank_estimated": false,
+   "name": "Flapping Airplanes",
+   "sector": "AI 연구랩 (네오랩)",
+   "amount_m": 1000,
+   "round": "Series A",
+   "valuation": "약 $6B",
+   "lead": "Lux Capital, Index Ventures",
+   "hq": "미국 · 2025년 말 설립",
+   "what": "'사람처럼 적은 데이터로 배우는 AI'를 연구하는 기초연구소입니다. 지금의 프런티어 모델은 인터넷 전체를 학습해야 하지만, 사람은 훨씬 적은 예시로 배웁니다. 이 차이를 신경과학 관점에서 풀어 데이터 효율을 최대 1,000배 높이는 게 목표입니다(창업자 목표치이며 입증된 결과 아님). 회사 이름은 '새처럼 날갯짓하는 비행기'를 비튼 것입니다. 지금의 무차별 스케일링이 언젠가 버려질 설계일 수 있다는 문제의식을 담았습니다. 형제인 Ben·Asher Spector와 Aidan Smith가 공동 창업했습니다. <b>제품도 매출도 없습니다.</b>",
+   "funding": "Lux Capital과 Index Ventures가 공동 리드했고 Sequoia, GV, Kleiner Perkins가 참여했습니다. Nvidia·Valor 참여는 일부 출처에만 나옵니다 [미확인]. Bloomberg가 처음 보도했고 발표일은 10/21입니다.",
+   "history": "2026년 1월 시드 $180M(밸류 약 $1.5B, GV·Sequoia·Index) → 약 9개월 만에 밸류 4배가 됐습니다. 7월 Forbes는 '$5B 밸류에 수억 달러' 협상을 보도했는데 결과는 그보다 컸습니다. 누적 조달은 약 $1.18B입니다.",
+   "metrics": "공개 지표가 없습니다. 연구 방향도 상당 부분 비공개(스텔스)입니다.",
+   "why": "<b>'포스트 트랜스포머' 베팅에 10억 달러가 들어간 '네오랩(neolab)' 붐의 정점입니다.</b> OpenAI·Anthropic 같은 기존 랩이 스케일링 경쟁을 하는 동안, 투자자들은 전혀 다른 방법으로 판을 바꿀 수 있는 소수 연구팀에 옵션처럼 큰돈을 겁니다. 데이터가 부족하거나 라벨링이 비싼 산업(의료·로봇·과학)에서 데이터 효율은 곧 상업적 병목이라는 논리입니다. 동시에 매출 없는 회사에 $6B 밸류가 붙었다는 점에서 AI 투자 과열을 보여주는 지표이기도 합니다.",
+   "sources": [
+    [
+     "Crunchbase",
+     "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-biotech-robotics-tenstorrent/"
+    ],
+    [
+     "TheNextWeb",
+     "https://thenextweb.com/news/flapping-airplanes-1b-6b-valuation"
+    ],
+    [
+     "TechCrunch 인터뷰",
+     "https://techcrunch.com/2026/02/16/flapping-airplanes-on-the-future-of-ai-we-want-to-try-really-radically-different-things/"
+    ],
+    [
+     "Dealroom",
+     "https://dealroom.co/news/164826-flapping-airplanes-raises-1b-for-ai-research-hitting-6b-valuation/"
+    ]
+   ],
+   "site": null
+  },
+  {
+   "rank": 3,
+   "rank_estimated": false,
+   "name": "ASI",
+   "sector": "물리 AI · 국방 · 인프라",
+   "amount_m": 325,
+   "round": "Series C",
+   "valuation": "$3B",
+   "lead": "Spark Capital",
+   "hq": "미국 매사추세츠 보스턴 (2024년 실리콘밸리에서 이전)",
+   "what": "옛 이름은 Air Space Intelligence입니다. 항공기 경로를 최적화하는 소프트웨어로 시작했고, 지금은 '물리 세계를 모델링해 몇 시간~몇 주 뒤를 시뮬레이션하는 AI'를 만듭니다. 항공사·항공관제(FAA), 미군, 전력망 운영사 같은 '멈추면 안 되는 인프라'를 운영하는 고객이 기상·혼잡·장애를 미리 예측하고 대응하도록 돕습니다. B2G·B2B 장기계약 모델입니다.",
+   "funding": "Spark Capital이 리드했고 Citadel Securities 계열, Meritech, Craft Ventures, Energy Impact Partners, a16z가 참여했습니다. 발표일은 10/20입니다.",
+   "history": "2023년 Series B $34M → 이번 $325M으로 라운드 규모가 약 10배입니다. 직전 밸류는 공개되지 않았습니다 [미확인].",
+   "metrics": "6월 FAA와 12년 $875M 프로그램, 10월 미 육군과 5년 $99M 지휘통제 계약을 따냈습니다(계약 총액이며 인식 매출이 아닙니다).",
+   "why": "<b>'정부 대형계약 → VC 메가라운드'라는 디펜스테크 공식이 인프라 AI로 넓어지고 있습니다.</b> FAA·육군 수주로 매출 가시성이 생기자 성장 투자자가 들어왔습니다. 항공에서 쌓은 시뮬레이션 모델을 에너지·물류로 넓히려는 것입니다. LLM 이후 'physical AI(현실 세계를 다루는 AI)'와 국가 인프라 현대화가 겹치는 지점입니다.",
+   "sources": [
+    [
+     "Crunchbase",
+     "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-biotech-robotics-tenstorrent/"
+    ],
+    [
+     "TheNextWeb",
+     "https://thenextweb.com/news/asi-325m-series-c-3bn-valuation-air-space-intelligence"
+    ],
+    [
+     "Dealroom",
+     "https://dealroom.co/news/164398-air-traffic-ai-startup-asi-raises-325m-at-3b-valuation/"
+    ],
+    [
+     "Boston Globe",
+     "https://www.bostonglobe.com/2026/10/20/business/asi-unicorn-ai-funding-transportation/"
+    ]
+   ],
+   "site": null
+  },
+  {
+   "rank": 4,
+   "rank_estimated": false,
+   "name": "Xona Space Systems",
+   "sector": "우주 · 항법(PNT)",
+   "amount_m": 250,
+   "round": "Series D",
+   "valuation": "$2.45B (post)",
+   "lead": "Future Ventures (Steve Jurvetson)",
+   "hq": "미국 캘리포니아 벌링게임",
+   "what": "GPS를 보완하거나 대체할 저궤도(LEO) 항법 위성망 'Pulsar'를 만듭니다. 지금의 GPS는 고도 2만km 위성의 약한 신호라서 전파 방해(재밍)와 위장 신호(스푸핑)에 취약하고 실내에서는 잘 잡히지 않습니다. Xona는 훨씬 가까운 궤도에서 최대 100배 강한 신호로 cm급 정확도를 제공하겠다고 합니다(회사 주장). 자율주행차, 드론, 농기계, 통신·금융 시간동기, 국방 고객에게 항법 신호를 서비스로 팔 계획입니다.",
+   "funding": "Future Ventures가 리드하며 $78.5M을 넣었습니다. 발표일은 10/22입니다.",
+   "history": "2024년 Series A $19M → 2025년 6월 Series B $92M → 2026년 3월 Series C $170M(밸류 $768M) → 7개월 만에 이번 $2.45B로 약 3.2배 올랐습니다. 누적 조달은 $570M+입니다.",
+   "metrics": "8월 FCC 승인을 받았고 10월 위성 6기를 발사했습니다. 계획된 전체 위성망은 258기(Forbes)이고 2027년 초 일부 국가 베타 서비스를 시작합니다. 매출·고객 수는 공개되지 않았습니다.",
+   "why": "<b>우크라이나·중동에서 GPS 재밍이 일상화되면서 'GPS 회복력(resilient PNT)'이 국방·민간 공통 과제가 됐습니다.</b> 정부가 GPS를 현대화하려면 느리고 비싸기 때문에, 상업 위성망이 그 공백을 채운다는 논리입니다. SpaceX가 낮춘 발사 비용과 국방 수요가 맞물리며 우주 인프라 스타트업 밸류가 빠르게 다시 매겨지고 있습니다.",
+   "sources": [
+    [
+     "Crunchbase",
+     "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-biotech-robotics-tenstorrent/"
+    ],
+    [
+     "SatNews",
+     "https://satnews.com/2026/10/22/xona-space-systems-secures-250m-series-d-at-2-45b-valuation-to-scale-pulsar-pnt-fleet/"
+    ],
+    [
+     "TheNextWeb",
+     "https://thenextweb.com/news/xona-250m-series-d-gps-rival-low-earth-orbit"
+    ],
+    [
+     "Dealroom",
+     "https://dealroom.co/news/165017-xona-raises-250m-series-d-to-challenge-gps-with-leo-satellites/"
+    ]
+   ],
+   "site": "https://www.xonaspace.com"
+  },
+  {
+   "rank": 5,
+   "rank_estimated": false,
+   "name": "Pathos AI",
+   "sector": "AI 신약개발",
+   "amount_m": 237,
+   "round": "Series E",
+   "valuation": "약 $3B (post)",
+   "lead": "Bristol Myers Squibb",
+   "hq": "미국 시카고",
+   "what": "AI로 '될 만한 신약 후보'를 골라 직접 개발하는 임상 단계 제약사입니다. 자체 AI 시스템 'Foundry'로 임상·유전체 데이터를 분석합니다. 다른 회사(중국 Alphamab, AstraZeneca 등)가 가진 유망 후보물질을 찾아 라이선스하고, 맞는 환자군을 골라 임상 성공 확률을 높입니다. 핵심 후보는 TROP2/HER3 이중항체-약물접합체(ADC) JSKN016과 전립선암·다발골수종 치료제 pocenbrodib입니다. CEO는 Iker Huerga입니다.",
+   "funding": "빅파마 BMS가 리드했고 기존 투자자들이 참여했습니다. 동시에 BMS·Tempus AI와 알츠하이머 등 신경질환 협업을 맺었고, Tempus 데이터를 5년 $55M에 라이선스합니다. 발표일은 10/23입니다.",
+   "history": "2024년 Series C $62M → 2025년 5월 Series D $365M(밸류 약 $1.6B) → 이번 약 $3B로 약 1.9배 올랐습니다. 누적 조달은 약 $700M입니다.",
+   "metrics": "임상 단계 파이프라인 4개 이상(JSKN016, pocenbrodib, AZD4241, DO-2)이 있습니다. 매출은 공개되지 않았습니다.",
+   "why": "<b>빅파마가 'AI 신약' 회사에 재무적 리드로 직접 들어왔다는 점이 핵심입니다.</b> AI 신약이 '후보물질 발굴 도구'에서 '임상 파이프라인을 보유한 제약사' 모델로 진화하고 있습니다. 중국에서 싼값에 사 온 후보물질(특히 ADC)을 AI로 골라 미국 임상으로 키우는 전략은 2025~26년 바이오 업계의 큰 흐름입니다.",
+   "sources": [
+    [
+     "Crunchbase",
+     "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-biotech-robotics-tenstorrent/"
+    ],
+    [
+     "STAT",
+     "https://www.statnews.com/2026/10/23/pathos-ai-bristol-myers-squibb-tempus-deal/"
+    ],
+    [
+     "BusinessWire",
+     "https://www.businesswire.com/news/home/20261023421846/en/Pathos-AI-Secures-$237-Million-in-Series-E-Financing-to-Scale-Agentic-AI-Drug-Development-Platform-and-Advance-Oncology-Pipeline"
+    ]
+   ],
+   "site": "https://www.pathos.com"
+  },
+  {
+   "rank": 6,
+   "rank_estimated": false,
+   "name": "Warp Sciences",
+   "sector": "AI × 로봇 신약 CRO",
+   "amount_m": 215,
+   "round": "Series A",
+   "valuation": "약 $865M (post) [미확인]",
+   "lead": "Lightspeed Venture Partners",
+   "hq": "미국 · 2026년 10월 스텔스 해제",
+   "what": "신약 후보 분자를 '실제로 합성하고 테스트'해 주는 화학 위탁연구기관(CRO)입니다. 화학자, 로봇 자동화 실험실, 자체 AI 모델을 결합했습니다. AI가 유망한 분자를 설계하는 건 빨라졌지만, 그걸 만들고 검증하는 실험은 여전히 느리고 숙련 인력에 의존합니다. Warp는 이 병목을 미국 내 자동화 랩으로 풀어 제약사에 서비스로 팝니다. OpenAI에서 과학 부문을 이끈 Kevin Weil이 CEO이고, Meta AI 출신 Manohar Paluri, 전 미국 최고데이터과학자 DJ Patil, Sol Reisberg가 공동 창업했습니다.",
+   "funding": "Lightspeed가 리드했고 IVP, Premji Invest, Lux Capital과 유명 엔젤들이 참여했습니다. 밸류 $865M은 2차 보도 기준입니다 [미확인]. 발표일은 10/22입니다.",
+   "history": "첫 공개 라운드입니다(스텔스 해제와 동시 발표).",
+   "metrics": "공개된 매출·고객은 없습니다.",
+   "why": "<b>AI의 다음 단계가 '브라우저 밖, 실험실 안'이라는 흐름을 보여줍니다.</b> AI 모델이 과학 가설을 쏟아내도 실험 처리량이 병목이라, 자동화 랩(self-driving lab)에 대형 자금이 들어가고 있습니다(Lila Sciences·Periodic Labs 등과 같은 흐름). 중국 CRO 의존을 줄이려는 미국 정책(BIOSECURE 논의)과 '미국 내 과학 역량'이라는 메시지도 투자 논리에 포함됩니다.",
+   "sources": [
+    [
+     "Crunchbase",
+     "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-biotech-robotics-tenstorrent/"
+    ],
+    [
+     "Kevin Weil (X)",
+     "https://x.com/kevinweil/status/2113294657673466060"
+    ],
+    [
+     "The AI Landscape",
+     "https://theailandscape.com/news/warp-sciences-215m-series-a-robot-drug-labs/"
+    ]
+   ],
+   "site": null
+  },
+  {
+   "rank": 7,
+   "rank_estimated": false,
+   "name": "Whop",
+   "sector": "크리에이터 커머스",
+   "amount_m": 200,
+   "round": "Series D",
+   "valuation": "$5.1B",
+   "lead": "Sequoia Capital, Shopify Ventures",
+   "hq": "미국 뉴욕 · 2021년 설립",
+   "what": "누구나 온라인 사업을 열 수 있는 디지털 상품 마켓플레이스입니다. 트레이딩 강의, 스포츠 베팅 픽, 유료 디스코드 커뮤니티, 소프트웨어, 코칭 같은 상품을 판매자가 올리면 Whop이 결제·회원 관리·노출을 맡습니다. 'Shopify + Discord'를 합친 모델로 불리며, 직접 판매에는 약 3%, Whop 마켓플레이스를 통한 판매에는 약 30%의 수수료를 받습니다. 주 고객층은 Z세대 판매자와 구매자입니다. Steven Schwartz, Cameron Zoub, Jack Sharkey가 공동 창업했습니다.",
+   "funding": "Sequoia가 리드했고 Shopify Ventures가 공동 리드 또는 참여했습니다(출처별로 다름). Sequoia의 Doug Leone이 이사회에 합류합니다. 금액은 회사 발표 $200M, Dealroom·Wikipedia $205M로 엇갈립니다. 발표일은 10/21입니다.",
+   "history": "2026년 2월 Tether가 $200M 투자(밸류 $1.6B) → 8개월 만에 $5.1B로 약 3.2배 올랐습니다. 올해 누적 조달은 약 $400M입니다.",
+   "metrics": "연환산 매출 $400M+ (회사 주장), 2025년 초 $60M에서 약 7배 늘었습니다. 흑자라는 보도도 있습니다 [미확인].",
+   "why": "<b>'개인이 1인 기업으로 돈 버는' 크리에이터 이코노미의 결제 인프라를 노리는 베팅입니다.</b> 예측시장(Kalshi·Polymarket), 개인 트레이딩, 크립토 열풍을 탄 Z세대 수요가 거래액을 끌어올렸습니다. Shopify가 투자자로 들어온 것은 전통 이커머스 강자가 '디지털 상품·커뮤니티 커머스'를 다음 영역으로 본다는 신호입니다. 다만 일부 판매 상품(트레이딩·베팅 정보)의 품질과 규제 리스크는 남아 있습니다.",
+   "sources": [
+    [
+     "Crunchbase",
+     "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-biotech-robotics-tenstorrent/"
+    ],
+    [
+     "Dealroom",
+     "https://dealroom.co/news/164809-whop-raises-205m-at-a-5-1b-valuation-in-sequoia-led-round/"
+    ],
+    [
+     "Sacra",
+     "https://sacra.com/research/whop-revenue-growth-valuation"
+    ]
+   ],
+   "site": "https://whop.com"
+  },
+  {
+   "rank": 7,
+   "rank_estimated": false,
+   "name": "Warhound",
+   "sector": "디펜스 바이오",
+   "amount_m": 200,
+   "round": "Seed",
+   "valuation": "$1.2B",
+   "lead": "Sequoia, 8VC 등 (리드 미공개)",
+   "hq": "미국 텍사스 · 2026년 10월 스텔스 해제",
+   "what": "실전에서 검증된 최정예 군견(주로 벨지안 말리노이즈)의 세포를 보관한 뒤, 유전자 편집과 복제로 '검증된 군견'을 대량 공급하려는 회사입니다. 미군·특수부대·구조대에 개를 판매하거나 공급계약을 맺는 모델입니다. 복제는 Colossal Biosciences 자회사 Viagen이, 센서·방탄 조끼는 Anduril이 맡습니다. Colossal의 Ben Lamm과 Anduril의 Palmer Luckey가 구상했습니다. CEO는 미 특수작전사령부와 국방부 최고데이터책임자를 지낸 해병대 출신 David Spirk입니다. <b>아직 개는 한 마리도 없습니다.</b>",
+   "funding": "TechCrunch 기준 Sequoia, 8VC, Corner Ventures, In-Q-Tel(CIA 산하 투자사)이 참여했습니다. 다른 보도는 ARK Invest와 Franklin Templeton도 꼽습니다. 투자자 명단은 출처마다 다릅니다 [미확인]. 발표일은 10/22입니다.",
+   "history": "첫 라운드입니다(시드 단계에서 바로 유니콘).",
+   "metrics": "첫 강아지는 2027년 초, 실전 배치는 2028~29년이 목표입니다. 매출은 없습니다.",
+   "why": "<b>디펜스테크 열풍이 하드웨어를 넘어 바이오(생명공학)로 번졌습니다.</b> 미국은 군견 대부분을 유럽에서 수입하고 있어 '국내 공급망' 논리가 통합니다. Colossal(매머드 복원)과 Anduril이라는 두 화제 기업의 브랜드 파워, 그리고 시드에 $200M을 넣는 '창업자 프리미엄' 투자 문화가 결합한 사례입니다. 윤리 논란과 실현 가능성에 대한 비판도 큽니다.",
+   "sources": [
+    [
+     "Crunchbase",
+     "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-biotech-robotics-tenstorrent/"
+    ],
+    [
+     "TechCrunch",
+     "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/"
+    ],
+    [
+     "TFN",
+     "https://techfundingnews.com/warhound-raises-200m-at-a-1-2b-valuation-to-clone-military-dogs-that-do-not-exist-yet/"
+    ]
+   ],
+   "site": null
+  },
+  {
+   "rank": 9,
+   "rank_estimated": true,
+   "name": "Tractian",
+   "sector": "산업 AI (Physical AI)",
+   "amount_m": 130,
+   "round": "Series D",
+   "valuation": "$1.4B",
+   "lead": "Sapphire Ventures (공동 리드 M&G Catalyst)",
+   "hq": "미국 조지아 애틀랜타 / 브라질 상파울루 · 2019년 설립",
+   "what": "공장 설비에 붙이는 진동·온도 센서와 AI로 기계 고장을 미리 예측하는 산업용 모니터링 플랫폼입니다. 모터·펌프·컴프레서의 이상 징후를 잡아 정비 일정을 짜 주는 소프트웨어(CMMS)까지 묶어서 구독형으로 팝니다. 고객은 Eli Lilly, McKesson, Whirlpool, Coca-Cola 보틀러, Cummins, Embraer와 데이터센터 운영사 등입니다. 브라질 창업자 Igor Marinelli와 Gabriel Lameirinhas가 세웠습니다.",
+   "funding": "Sapphire Ventures가 리드하고 M&G Catalyst가 공동 리드했습니다. N47, General Catalyst, Bosch Ventures, Monashees, Endeavor Catalyst, Y Combinator 등이 참여했습니다. 발표일은 10/22입니다.",
+   "history": "2024년 12월 Series C $120M(밸류 $720M, Sapphire 리드) → 이번 $1.4B로 약 1.9배 올랐습니다. 누적 조달은 약 $310M입니다.",
+   "metrics": "ARR $100M 돌파(The Information 보도, 9월), 매출 절반이 미국입니다. 설치 현장 2,000곳 이상, 직원 700명 이상입니다.",
+   "why": "<b>LLM 붐 이후 'Physical AI'가 실제 매출을 내는 영역은 공장 같은 지루한 산업 현장입니다.</b> 숙련 정비 인력 부족과 미국 제조업 리쇼어링, 데이터센터 냉각·전력 설비 관리 수요가 겹치면서 하드웨어+SaaS 모델이 다시 평가받고 있습니다. 중남미 출신 창업자의 미국 유니콘이라는 점도 눈에 띕니다.",
+   "sources": [
+    [
+     "Tractian 발표",
+     "https://tractian.com/en/tractian-happened-series-d"
+    ],
+    [
+     "LatamList",
+     "https://latamlist.com/tractian-raises-130m-series-d-at-1-4b-valuation/"
+    ],
+    [
+     "Pulse 2.0",
+     "https://pulse2.com/tractian-raises-130-million-series-d-at-1-4-billion-valuation-to-scale-physical-ai-platform/"
+    ]
+   ],
+   "site": "https://tractian.com"
+  },
+  {
+   "rank": 10,
+   "rank_estimated": true,
+   "name": "Reliable Robotics",
+   "sector": "자율비행 항공",
+   "amount_m": 115,
+   "round": "Series D 확장",
+   "valuation": "$1B 초과",
+   "lead": "Nimble Partners",
+   "hq": "미국 캘리포니아 마운틴뷰 · 2017년 설립",
+   "what": "기존 항공기(세스나 캐러밴 등)를 개조해 지상에서 원격 감독하는 자율비행 시스템을 만듭니다. 먼저 지역 화물 항공, 이후 군 수송을 겨냥합니다. 조종사 부족과 소형 화물기 운항 비용을 줄이는 게 핵심입니다. 시스템을 판매하거나 운항 서비스로 제공합니다. SpaceX 출신 Robert Rose(CEO)가 창업했습니다.",
+   "funding": "Nimble Partners가 리드했고 Eclipse, Lightspeed, Coatue, Pathbreaker가 계속 참여했습니다. 구성은 출처별로 '지분 $90M + SVB 대출 $25M' 또는 '지분 $115M + 대출 $25M'으로 엇갈립니다 [미확인]. 발표일은 10/20입니다.",
+   "history": "2026년 4월 Series D $160M → 이번 확장으로 Series D 누적 약 $275M이 됐고 밸류는 $1B를 넘었습니다(유니콘). 지분 누적은 $380M+입니다.",
+   "metrics": "미 공군 자동화 화물 계약을 맺었고 앨버커키시와 연방 파일럿 프로그램을 진행 중입니다. CEO는 FAA 인증을 18~24개월 뒤로 예상합니다.",
+   "why": "<b>자율주행 투자가 도로에서 하늘로, 그리고 국방 물류로 옮겨가고 있습니다.</b> 미 공군 계약으로 국방 수요를 확보하면서 규제 인증이라는 긴 터널을 버틸 자금을 받은 사례입니다. FAA 인증이 실제로 나오면 상업 화물 자율비행의 첫 사례가 됩니다.",
+   "sources": [
+    [
+     "AIWeekly",
+     "https://aiweekly.co/alerts/reliable-robotics-lands-115m-series-d-extension-at-1b-valuation-to-push"
+    ],
+    [
+     "Ventureburn",
+     "https://ventureburn.com/reliable-robotics-secures-115m-autonomous-aviation/"
+    ]
+   ],
+   "site": "https://reliable.co"
+  }
+ ],
+ "others": [
+  "<b>Legora</b> — $550M Series E, 밸류 $8.8B (Atreides 리드). 스웨덴 법률 AI로, Crunchbase 미국 기준 목록에서는 빠졌습니다. Harvey($15.5B)와 양강 구도이고 ARR $200M+ (회사 주장).",
+  "<b>Town</b> — $108M Series B, 밸류 $1B (Forerunner·Menlo). 직원별 AI 어시스턴트 'Townie', 출시 4개월 만에 유니콘.",
+  "<b>Peak Energy</b> — $108M Series B (GM Ventures). 나트륨이온 에너지저장, 데이터센터 시장 진출."
+ ],
+ "sectors": [
+  {
+   "name": "AI",
+   "stat": "약 $3.4B · Top 10 중 6건",
+   "text": "칩(Tenstorrent $1.5B), 기초모델 연구(Flapping Airplanes $1B), 인프라 시뮬레이션(ASI $325M), 산업 AI(Tractian $130M)에 AI 신약 2건까지 더하면 Top 10 금액의 약 80%입니다. Top 10 밖에서도 개발 빌드·테스트 플랫폼 Blacksmith가 $66M Series C로 $1B 밸류(Sequoia 리드, <a href=\"https://www.axios.com/pro/all-deals/2026/10/21/pro-rata-premium-whop-blacksmith-hackensack-meridian\">Axios</a>), AI CAD의 Mach9가 $34M Series A(First Round·Bessemer)를 받았습니다. 다만 Crunchbase 집계상 북미 AI 투자는 Q3 $61B로 상반기보다 크게 줄었습니다. OpenAI·Anthropic급 초대형 라운드가 빠진 영향이고, 지금은 대형 랩 대신 칩·인프라·버티컬 AI로 돈이 분산되는 국면입니다(<a href=\"https://news.crunchbase.com/venture/q3-2026-north-america-startup-funding-falls-ai-exits-data/\">Crunchbase Q3</a>)."
+  },
+  {
+   "name": "바이오 · 헬스",
+   "stat": "$452M · 2건 (모두 AI 신약)",
+   "text": "Pathos AI($237M, BMS 리드)와 Warp Sciences($215M, Lightspeed 리드)가 Top 10에 들었습니다. 바이오 대형 딜이 전부 'AI+신약'이라는 점이 이번 주의 특징입니다. 전통 바이오텍보다 AI 플랫폼과 임상 파이프라인을 함께 가진 회사, 그리고 실험 자동화에 자금이 쏠립니다."
+  },
+  {
+   "name": "국방 · 우주 · 하드테크",
+   "stat": "$565M · 3건",
+   "text": "Xona($250M, GPS 대체 위성망), Warhound($200M, 군견 바이오), Reliable Robotics($115M, 자율비행)가 Top 10에 들었고, 국방 계약을 가진 ASI까지 넓히면 약 $890M입니다. 위성 제조사 Apex는 $4~5B 밸류로 $500M 협상 중이라는 Bloomberg 보도가 있습니다 [미확인](<a href=\"https://www.axios.com/pro/all-deals/2026/10/22/pro-rata-premium-apex-xona-davids-bridal-skullcandy\">Axios</a>). 지난주 Anduril의 $90B 밸류 추진 보도와 함께 디펜스·우주 밸류 재평가가 이어지고 있습니다."
+  },
+  {
+   "name": "핀테크 · 커머스",
+   "stat": "$200M · 1건 (Whop)",
+   "text": "Top 10 중 핀테크 성격의 딜은 크리에이터 결제·커머스의 Whop($200M) 하나뿐입니다. 순수 핀테크로는 결제 시점에 파는 소액 보험을 만드는 Slingshot이 $27M 시드를 받은 정도입니다(<a href=\"https://news.crunchbase.com/sections/venture/\">Crunchbase</a>). Crunchbase에 따르면 Q3 글로벌 핀테크 투자는 전년 대비 21% 줄었고 딜 수도 감소했습니다. AI에 자금을 빼앗긴 대표 섹터입니다(<a href=\"https://news.crunchbase.com/venture/q3-2026-fintech-startup-funding-deal-count-fell-ai/\">Crunchbase</a>)."
+  },
+  {
+   "name": "기후 · 에너지",
+   "stat": "약 $118M · Top 10 밖",
+   "text": "나트륨이온 에너지저장의 Peak Energy가 GM Ventures 리드로 $108M Series B를 받아 데이터센터 시장에 진출합니다. 시멘트 탄소배출을 최대 85% 줄이는 Cura Climate는 $10M을 받았습니다(<a href=\"https://news.crunchbase.com/venture/interesting-startup-deals-robots-ai-gaming-clean-tech/\">Crunchbase</a>). 기후 투자는 '탈탄소' 자체보다 'AI 데이터센터 전력 수요'에 기대는 쪽으로 무게가 옮겨가고 있습니다."
+  }
+ ],
+ "stages": [
+  {
+   "stage": "시드 · 프리시드",
+   "deals": "Warhound $200M (밸류 $1.2B)<br>Dream Labs $90M (로봇 AI, B Capital·Kindred)<br>로봇 학습 데이터 스타트업 $30M (Peak XV)<br>Slingshot $27M · Foundational 약 $11M",
+   "note": "메가 시드(1억 달러 이상)는 유명 창업자나 대형 기업 스핀오프에만 몰립니다. 일반 시드는 $10~30M대입니다."
+  },
+  {
+   "stage": "시리즈 A",
+   "deals": "Flapping Airplanes $1B<br>Warp Sciences $215M (밸류 약 $865M)<br>Mach9 $34M",
+   "note": "'시리즈 A'라는 이름이 무색합니다. 스타 연구자·창업자 팀은 첫 기관 라운드부터 수억~10억 달러를 받습니다."
+  },
+  {
+   "stage": "시리즈 B~E · 성장",
+   "deals": "Tenstorrent $1.5B (E) · ASI $325M (C)<br>Xona $250M (D) · Pathos $237M (E)<br>Whop $200M (D) · Tractian $130M (D)<br>Reliable $115M (D 확장) · Blacksmith $66M (C)",
+   "note": "직전 라운드 대비 밸류가 1.9~3.2배 뛴 사례가 다수입니다(Xona 3.2배, Whop 3.2배, Tenstorrent 2.4배). 실적이나 대형 계약이 보이는 회사에 성장 자금이 집중됩니다."
+  }
+ ],
+ "stage_note": "Top 10 전부가 $100M 이상 메가라운드이고, 그중 2건(Flapping Airplanes, Warhound)은 시드·A 단계입니다. 분기 흐름으로 보면 Q3 북미 초기 단계(시리즈 A·B) 투자는 $20.6B로 직전 분기 사상 최고치보다 줄었지만 전년보다 많고, 시드는 $5B 이상(잠정)입니다. 후기·성장 단계는 $66.5B로 전 분기 대비 크게 줄었습니다(<a href=\"https://news.crunchbase.com/venture/q3-2026-north-america-startup-funding-falls-ai-exits-data/\">Crunchbase Q3</a>). <b>\"초기 단계는 꾸준하고, 숫자를 흔드는 건 소수 메가딜\"</b>이라는 구도가 이어집니다.",
+ "investors": [
+  "<b>Sequoia</b> — 이번 주 가장 바쁜 투자사입니다. Whop 리드(Doug Leone 이사회 합류), Blacksmith 리드($1B 밸류), Warhound 참여, Flapping Airplanes 참여(<a href=\"https://www.axios.com/pro/all-deals/2026/10/21/pro-rata-premium-whop-blacksmith-hackensack-meridian\">Axios</a>).",
+  "<b>Lux Capital</b> — Flapping Airplanes 공동 리드에 Warp Sciences도 참여했습니다. '과학 기반 AI' 테마에 연달아 베팅하고 있습니다.",
+  "<b>Lightspeed</b> — Warp Sciences 리드, Reliable Robotics 기존 투자자로 후속 참여했습니다.",
+  "<b>Future Ventures (Steve Jurvetson)</b> — Xona 리드로 $78.5M을 단독으로 넣었습니다.",
+  "<b>Bristol Myers Squibb</b> — 빅파마가 AI 신약 회사(Pathos)의 라운드를 직접 리드했습니다. 전략적 투자자가 VC 역할을 하는 사례입니다.",
+  "<b>In-Q-Tel · 8VC</b> — Warhound에 참여했습니다. 국방·정보기관 자금이 바이오 영역까지 들어왔습니다."
+ ],
+ "funds": [
+  "<b>Inspired Capital Fund IV</b> — $450M 클로즈(10/20). Alexa von Tobel·Penny Pritzker가 세운 뉴욕 VC로, 누적 약정은 약 $1.4B입니다.",
+  "<b>Seaya</b> — 유럽 스타트업 펀드 €600M 조성(<a href=\"https://www.axios.com/pro/all-deals/2026/10/22/pro-rata-premium-apex-xona-davids-bridal-skullcandy\">Axios</a>).",
+  "<b>참고(직전 주)</b> — Pear VC 5호 $333M(10/14, 시드 전문), Endeavor Catalyst 5호 $320M(10/7).",
+  "<b>모집 중</b> — Benchmark가 창업자 펀드 약 $352M을 SEC에 신고했고, Anti Fund(Jake Paul 등)는 2호 $400M을 추진 중입니다(StrictlyVC)."
+ ],
+ "exits": [
+  "<b>Anthropic IPO</b> — Bloomberg(10/1)에 따르면 11/9 주부터 공식 마케팅을 시작해 추수감사절 전 상장을 노립니다. 당초 10월 계획에서 3분기 실적 공개를 이유로 미뤄졌습니다. 공식 S-1은 아직 확인되지 않았습니다 [미확인].",
+  "<b>Q3 엑시트 환경</b> — 북미에서 $1B 이상 스타트업 인수가 11건이었고 최대 딜은 Nvidia의 Hugging Face 인수(약 $12.9B)였습니다. 벤처 지원 IPO는 17건, 조달액은 $4B 미만으로 아직 얇습니다(<a href=\"https://news.crunchbase.com/venture/q3-2026-north-america-startup-funding-falls-ai-exits-data/\">Crunchbase</a>).",
+  "<b>이번 주 M&A</b> — Bose가 Skullcandy를 인수하고, David's Bridal이 AI SPAC 상장을 추진한다는 소식이 있습니다(둘 다 VC 스타트업 엑시트는 아님, 세부 조건 [미확인], <a href=\"https://www.axios.com/pro/all-deals/2026/10/22/pro-rata-premium-apex-xona-davids-bridal-skullcandy\">Axios</a>). 이번 주 대형 VC 지원 스타트업 인수는 확인하지 못했습니다.",
+  "<b>그 밖</b> — Tenstorrent가 Intel·Qualcomm 인수 제안을 거절하고 자금조달을 택한 것도 '엑시트 대신 독립'이라는 신호입니다. OPay(나이지리아 핀테크) $320M IPO 조건 공개 보도 [미확인]."
+ ],
+ "implications": [
+  "<b>돈은 많지만 매우 집중돼 있습니다.</b> Top 10의 60%가 두 회사에 갔습니다. 주간·분기 총액은 소수 메가딜에 따라 크게 흔들리므로, 총액보다 딜 수와 섹터 분산을 함께 봐야 합니다.",
+  "<b>'증명된 AI'와 '옵션 AI'로 양극화돼 있습니다.</b> 출하·계약·ARR이 있는 회사(Tenstorrent, ASI, Tractian)와 아무것도 없는 연구랩·바이오(Flapping, Warhound)가 동시에 유니콘 이상 밸류를 받습니다. 후자는 금리나 공모시장이 흔들리면 가장 먼저 조정받을 위험이 있습니다.",
+  "<b>국가안보가 투자 논리의 기본값이 됐습니다.</b> 항법, 군견, 항공, 칩까지 '미국 내 공급망'과 '안보'가 반복되는 키워드입니다."
+ ],
+ "watch": [
+  "Anthropic IPO 마케팅 개시(11/9 주 예상)와 공모가·밸류 — AI 밸류 전체의 기준점이 됩니다.",
+  "Lambda(최대 $4B, pre $14.5B), DeepSeek($12B+), Isomorphic Labs($40~50B), Apex($500M) 등 협상 중인 메가라운드의 실제 클로즈 여부.",
+  "Crunchbase 10월 월간 집계(11월 초) — Q3 감소 이후 반등 여부.",
+  "Anduril의 $90B 밸류 라운드 진행 상황과 디펜스테크 후속 딜."
+ ],
+ "sources": [
+  [
+   "Crunchbase — 주간 Top 10 (10/17~10/23)",
+   "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-biotech-robotics-tenstorrent/"
+  ],
+  [
+   "Crunchbase — Q3 북미 펀딩",
+   "https://news.crunchbase.com/venture/q3-2026-north-america-startup-funding-falls-ai-exits-data/"
+  ],
+  [
+   "Crunchbase — Q3 글로벌",
+   "https://news.crunchbase.com/venture/q3-2026-global-startup-funding-ai-billion-dollar-rounds-exits-data/"
+  ],
+  [
+   "Crunchbase — Q3 핀테크",
+   "https://news.crunchbase.com/venture/q3-2026-fintech-startup-funding-deal-count-fell-ai/"
+  ],
+  [
+   "Crunchbase — 5 Interesting Deals (10/23)",
+   "https://news.crunchbase.com/venture/interesting-startup-deals-robots-ai-gaming-clean-tech/"
+  ],
+  [
+   "Axios Pro Rata — 10/19",
+   "https://www.axios.com/pro/all-deals/2026/10/19/pro-rata-premium-trivium-dream-labs-parkview-health"
+  ],
+  [
+   "Axios Pro Rata — 10/20",
+   "https://www.axios.com/pro/all-deals/2026/10/20/pro-rata-premium-lionsgate-intrafi-asi"
+  ],
+  [
+   "Axios Pro Rata — 10/21",
+   "https://www.axios.com/pro/all-deals/2026/10/21/pro-rata-premium-whop-blacksmith-hackensack-meridian"
+  ],
+  [
+   "Axios Pro Rata — 10/22",
+   "https://www.axios.com/pro/all-deals/2026/10/22/pro-rata-premium-apex-xona-davids-bridal-skullcandy"
+  ],
+  [
+   "StrictlyVC 뉴스레터",
+   "https://newsletter.strictlyvc.com/"
+  ],
+  [
+   "TechCrunch — Flapping Airplanes",
+   "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/"
+  ],
+  [
+   "TechCrunch — Warhound",
+   "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/"
+  ],
+  [
+   "TechCrunch — Mach9",
+   "https://techcrunch.com/2026/10/21/mach9-raises-34m-after-pivoting-to-ai-cad-software/"
+  ],
+  [
+   "STAT — Pathos AI",
+   "https://www.statnews.com/2026/10/23/pathos-ai-bristol-myers-squibb-tempus-deal/"
+  ],
+  [
+   "SatNews — Xona",
+   "https://satnews.com/2026/10/22/xona-space-systems-secures-250m-series-d-at-2-45b-valuation-to-scale-pulsar-pnt-fleet/"
+  ],
+  [
+   "Dealroom — Tenstorrent",
+   "https://dealroom.co/news/163940-tenstorrent-raises-1-5b-series-e-doubling-valuation-to-6-2b/"
+  ],
+  [
+   "Tractian 발표",
+   "https://tractian.com/en/tractian-happened-series-d"
+  ],
+  [
+   "Bloomberg Gov — Anthropic IPO",
+   "https://news.bgov.com/banking-law/anthropic-said-to-target-mega-ipo-before-thanksgiving-holiday"
+  ],
+  [
+   "HedgeCo — Inspired Capital",
+   "https://hedgeco.net/news/10/2026/inspired-capital-closed-its-fourth-venture-fund-at-450-million.html"
+  ]
+ ],
+ "limits": "이 실행 환경의 네트워크 정책이 외부 사이트 직접 접속을 막아(프록시 403) Crunchbase 기사 본문을 열지 못했습니다. 순위 1~8위(7위 공동)는 Crunchbase 기사의 검색 스니펫으로 확인했습니다. <b>9·10위(Tractian, Reliable Robotics)는 같은 기간 미국 기업 중 다음 규모 딜로 추정해 넣은 것</b>이므로 원문과 다를 수 있습니다. 각 딜의 금액·밸류·투자사는 회사 발표나 주요 매체 2곳 이상으로 교차 확인했고, 그렇지 못한 값은 '미확인'으로 표기했습니다. 매출·ARR은 대부분 회사 주장입니다."
+}
