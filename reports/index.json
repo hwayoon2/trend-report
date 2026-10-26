@@ -1,10 +1,10 @@
 [
-  {
-    "start": "2026-10-19",
-    "end": "2026-10-25",
-    "file": "2026-10-19.html",
-    "headline": "Tenstorrent $1.5B·Flapping Airplanes $1B 등 AI 딜이 주도, 확인된 11건 약 $4.5B",
-    "total": "$4.5B",
-    "deals": 11
-  }
+ {
+  "start": "2026-10-19",
+  "end": "2026-10-25",
+  "file": "2026-10-19.html",
+  "headline": "Tenstorrent $1.5B·Flapping Airplanes $1B 등 AI 딜이 상위를 차지, 재구성 Top 10 합계 약 $4.4B",
+  "top10_total": "$4.4B",
+  "top_deal": "Tenstorrent $1.5B (Series E)"
+ }
 ]
