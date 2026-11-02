@@ -99,6 +99,12 @@ def page(d, R):
     toc = [("trend", "시장의 방향"), ("chart", "Top 10"), ("cards", "딜 카드"), ("s1", "1. 섹터"), ("s2", "2. 단계"),
            ("s3", "3. 엑시트"), ("s4", "4. 시사점"), ("s5", "5. 출처")]
     others = f'<h2>Top 10 밖 주목할 딜</h2>{ul(d["others"], "small")}' if d.get("others") else ""
+    news = ""
+    if d.get("news"):
+        toc.insert(3, ("news", "플래텀 뉴스"))
+        news = (f'<h2 id="news">플래텀 투자 뉴스 ({len(d["news"])}건)</h2><div class="tw"><table><thead><tr><th>날짜</th><th>기업</th><th>금액 · 단계</th><th>내용</th></tr></thead><tbody>'
+                + "".join(f'<tr><td>{n["date"]}</td><td><b><a href="{n["url"]}">{html.escape(n["company"])}</a></b></td><td>{badge(n["amount"])}</td><td>{badge(n["summary"])}</td></tr>' for n in d["news"])
+                + "</tbody></table></div>")
     policy = f'<h4>정책 · 모태펀드</h4>{ul(d["policy"])}' if d.get("policy") else ""
     exits = (f'<h4>상장 · M&amp;A</h4>{ul(d["exits"])}{policy}' if policy else ul(d["exits"]))
     return f'''<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{R["title"]} | {S}~{E}</title>
@@ -110,7 +116,7 @@ def page(d, R):
 <h2 id="trend">이번 주 시장의 방향</h2>{ul(d["trends"], "trend")}
 <h2 id="chart">Top 10 한눈에</h2>{bars}
 <h2 id="cards">딜 카드</h2>{cards}
-{others}
+{others}{news}
 <h2 id="s1">1. 섹터별 동향</h2>{sectors}
 <h2 id="s2">{R["stage_h"]}</h2>{stages}<p>{badge(d["stage_note"])}</p>
 <h2 id="s3">{R["exit_h"]}</h2>{exits}
