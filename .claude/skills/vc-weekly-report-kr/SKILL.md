@@ -71,10 +71,10 @@ JSON 최상위에 **`"region": "kr"`** 필수. 원문 정보는 `source: {url, t
 
 ### 플래텀 투자 뉴스 (`news`)
 - **START~END에 플래텀(platum.kr)에 올라온 투자 유치 기사를 빠짐없이** 모은다. Top 10과 겹쳐도 넣는다(Top 10은 금액 순 분석, 이 표는 그 주 뉴스 흐름).
-- 찾는 법: `https://platum.kr/archives/category/investment` 목록을 WebFetch로 열어 날짜를 보며 페이지를 넘긴다(`/page/2` …). 막히면 WebSearch `allowed_domains:["platum.kr"]` + "투자 유치" + 날짜.
+- 찾는 법: ① `https://platum.kr/feed`(RSS)와 `https://platum.kr/archives/category/investment` 목록을 WebFetch로 연다(`/page/2` …). 플래텀은 클라우드 IP에 403을 주는 경우가 많다. ② 막히면 WebSearch `allowed_domains:["platum.kr"]` + "투자 유치" + 날짜. ③ 그래도 부족하면 **같은 주 투자 기사를 스타트업레시피·벤처스퀘어·유니콘팩토리 등 다른 매체에서 찾아 채운다**. 이 경우 각 항목 `summary` 끝에 출처 매체명을 괄호로 적고, `limits`에 "플래텀 대신 OO 기사로 보완"이라고 쓴다.
 - 기사마다 본문을 열어 확인. 항목 형식: `{"date":"10-28","company":"회사명","amount":"50억원 · 시리즈 A" (비공개면 "비공개 · 시드"),"summary":"뭐하는 회사인지 1문장 + 리드 투자사·자금 용도 1문장","url":"기사 URL"}`. 날짜 오름차순.
 - 펀드 결성·투자사 소식(투자 유치가 아닌 기사)은 넣지 않고 `policy`나 `others`로 보낸다.
-- 0건이거나 플래텀이 막혔으면 빈 배열로 두고 `limits`에 적는다.
+- 대체 매체까지 써도 확인 가능한 기사가 0건일 때만 빈 배열로 두고 `limits`에 적는다. 본문을 못 읽은 기사는 넣지 않는다.
 
 ## 5. 문체
 - 한국어 존댓말 평서문("~입니다"), 짧은 문장. 금액은 `350억원`, `1,200억원`, `1.2조원`. 필요하면 달러 환산을 괄호로(예: 약 $25M).
