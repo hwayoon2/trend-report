@@ -71,9 +71,11 @@ description: 실리콘밸리 VC 주간 리포트(Crunchbase Top 10 + 섹터·단
 git fetch origin && git checkout -B claude/pages origin/claude/pages
 # data/START.json 작성 (견본 복사 후 채우기)
 python3 tools/build_report.py data/START.json   # 검증 실패 시 메시지대로 보완
-git add -A && git commit -m "report: START ~ END" && git push origin claude/pages
+git add -A && git commit -m "report: START ~ END"
+git pull --rebase origin claude/pages && git push origin claude/pages
 ```
-- 빌더가 `reports/START.html`, `reports/index.json`, 루트 `index.html`을 갱신한다. `.nojekyll` 유지.
+- 빌더가 `reports/START.html`, `reports/index.json`, 루트 `index.html`(미국·국내 두 섹션)을 갱신한다. 국내판(`kr/`) 파일은 건드리지 않는다. `.nojekyll` 유지.
+- rebase 충돌이 `index.html`에서만 나면 빌더를 다시 실행해 재생성한 뒤 계속한다.
 - PR 생성 금지. push 실패 시 에러를 그대로 보고.
 
 ## 6. 마무리
