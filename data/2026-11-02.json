@@ -1,0 +1,349 @@
+{
+ "start": "2026-11-02",
+ "end": "2026-11-08",
+ "crunchbase": {
+  "url": "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/",
+  "title": "The Week’s 10 Biggest Funding Rounds: AI, Defense And Space Tech Lead For Large Rounds",
+  "note": "11/6 발행, 미국 기업 10/31~11/6 집계(일부 늦게 보도된 라운드는 빠질 수 있다고 명시). 공동 10위가 2건(Tutor Intelligence·Kalepa)이라 목록은 11개이며, 카드는 기사에 먼저 나온 Tutor를 10번째로 쓰고 Kalepa는 '주목할 딜'에 넣었습니다. 기사 본문은 WebFetch로 직접 확인했습니다."
+ },
+ "headline": "Shield AI $2B·Zipline $1.5B가 이끈 주간, 방산·우주·드론·에이전트 AI가 Top 10 합계 약 $5.6B",
+ "lead": "상위 2건이 합계의 62%, 상위 3건이 75%를 차지합니다. 10건 중 Shield AI·Zipline·CesiumAstro·Northwood·Harbinger·Tutor 등 6건이 방산·우주·드론·전기트럭·로보틱스 같은 하드테크(합계 약 87%)이고, AI 소프트웨어·인프라(Applied Compute·Sentra·Traversal·Ocient)가 4건입니다.",
+ "top_sector": "방산·우주·하드테크 6건",
+ "top_sector_note": "최다 섹터 (방산·우주·드론·전기트럭·로보틱스)",
+ "trends": [
+  "<b>방산·우주 자금이 '인수와 인프라'로 커지고 있습니다.</b> Shield AI는 $2.5B 조달로 레이더 기업 Echodyne을 최대 $5.3B에 사들이기로 했고, CesiumAstro($730M)와 Northwood($375M)는 위성·지상국 네트워크를 직접 짓겠다고 밝혔습니다. 스타트업이 부품 공급자에서 시스템·네트워크 운영자로 올라서는 흐름입니다.",
+  "<b>드론 배송이 실험에서 인프라 규모로 넘어갔습니다.</b> Zipline은 10개월 만에 밸류를 $7.6B에서 $21.5B로 약 2.8배 올렸고, Walmart와 최대 300개 신규 배송 거점을 추진합니다. 다만 매출·마진은 공개되지 않았습니다.",
+  "<b>AI 추론·에이전트 인프라에서 '실제 매출'이 밸류를 정당화하기 시작했습니다.</b> Applied Compute는 설립 18개월 만에 ARR $100M(회사 주장)로 7개월 전 대비 밸류 2.5배, Traversal은 ARR 9배 성장(회사 주장)으로 유니콘이 됐습니다. 같은 주 Axios가 전한 Fal($16B, 4월 대비 2배)도 같은 맥락입니다.",
+  "<b>대기업 전략투자자가 보안·금융 AI 딜에 직접 들어옵니다.</b> Sentra는 Capital One Ventures가 리드한 $150M 전략투자를 받아 이사회 자리까지 내줬고, Kalepa는 보험 언더라이팅 AI로 $470M 밸류를 받았습니다. 고객사가 곧 투자자가 되는 구조가 늘고 있습니다."
+ ],
+ "deals": [
+  {
+   "rank": 1,
+   "rank_estimated": false,
+   "name": "Shield AI",
+   "sector": "방산 · 자율 시스템",
+   "amount_m": 2000,
+   "round": "Series H $1B + Blackstone 구조화 지분 $1B (별도 부채 $500M)",
+   "valuation": "$28.8B (post, Series H 기준)",
+   "lead": "Disruptive, Innovation X Capital (Series H) / Blackstone (구조화 지분) / JPMorganChase (부채)",
+   "hq": "미국 캘리포니아 샌디에이고 · 2015년경 설립 [추정]",
+   "what": "군용 드론과 항공기를 사람 없이 날리게 하는 자율비행 소프트웨어와 기체를 만드는 방산 기업입니다. 사업은 자율 소프트웨어, 자율 시스템(드론·X-BAT 무인 전투기), 임무 시스템 3개 부문이며, 시뮬레이션 기업 Aechelon(3월)과 Crowdbotics 소프트웨어(2025.4)를 이미 인수했습니다. 고객은 미군과 동맹국 정부이고, 돈은 소프트웨어 라이선스와 기체·시스템 납품에서 나옵니다. CEO는 Gary Steele이고 공동 창업자 Brandon Tseng은 전직 네이비실 출신으로 알려져 있습니다(기사에서 직접 확인하지는 못했습니다 [추정]). 이번에 레이더 기업 Echodyne(워싱턴주 커클랜드)을 최대 $5.3B에 인수한다고 11/5 발표했습니다.",
+   "funding": "Crunchbase는 주식 $2B와 부채 $500M로 집계했습니다. 주식은 Disruptive·Innovation X Capital이 공동 리드한 Series H $1B와 Blackstone 관리 펀드의 구조화 지분 $1B이고, 부채는 JPMorganChase가 이끌었습니다. 자금은 주로 Echodyne 인수($4.8B 종결 시 지급 + 최대 $500M 성과 조건부)에 쓰이며 종결은 2027년 초 예정입니다. 일부 매체는 Series H가 이미 완료된 것이고 $2.5B 조달이 인수 종결 후 마감된다고 달리 설명해 [미확인] 부분이 있습니다.",
+   "history": "Bloomberg 인용 보도 기준으로 밸류는 올해 3월 $12.7B에서 $28.8B로 약 2.3배(8개월)입니다. 누계 조달액은 이번 조사에서 확인하지 못했습니다 [미확인].",
+   "metrics": "Shield AI와 Echodyne 모두 이번 회계연도 매출이 세 자릿수 퍼센트로 성장할 것으로 본다고 합니다(회사 주장). 절대 매출은 공개되지 않았습니다. Echodyne은 40개국 이상 고객, 9월 미 육군 JIATF-401의 상한 $250M 대드론 레이더 계약, 연 3만 대 생산 가능한 신공장을 갖고 있습니다.",
+   "why": "<b>방산 스타트업이 '소프트웨어 하나'에서 센서·플랫폼까지 묶는 종합 방산 기업으로 몸집을 키우는 국면입니다.</b> 트리거는 드론 위협이 커지며 대드론 레이더 수요가 폭증한 점과 Blackstone·JPMorgan 같은 대형 금융기관이 지분·부채를 함께 댄 점입니다. 같은 주 CesiumAstro·Northwood·Harbinger도 방산·우주 논리로 큰 돈을 받았고, 지난 주 Firehawk(탄약)·Re:Build(제조)와도 같은 흐름입니다. 리스크는 인수가가 매출 대비 매우 높게 보이는 점, 규제 승인과 통합 실행, 그리고 Series H와 구조화 지분의 구분이 매체마다 달라 실제 신규 자금 규모를 단정하기 어렵다는 점입니다.",
+   "sources": [
+    ["Crunchbase", "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/"],
+    ["Washington Technology", "https://www.washingtontechnology.com/companies/2026/11/shield-ai-acquires-radar-maker-echodyne-53-billion-deal/417086/"],
+    ["Tectonic Defense", "https://www.tectonicdefense.com/shield-ai-raises-2-5b-to-buy-echodyne-for-5-3b/"],
+    ["ASDNews", "https://asdnews.com/news/defense/2026/11/05/shield-acquire-echodyne-transaction-valued-at-53bn-raise-25bn-at-288bn-valuation"]
+   ],
+   "site": "https://shield.ai"
+  },
+  {
+   "rank": 2,
+   "rank_estimated": false,
+   "name": "Zipline International",
+   "sector": "드론 배송 · 물류",
+   "amount_m": 1500,
+   "round": "후기 단계(late-stage)",
+   "valuation": "$21.5B (post)",
+   "lead": "Paradigm, WCM Investment Management, Layer Global",
+   "hq": "미국 캘리포니아 사우스샌프란시스코 · 2014년 설립",
+   "what": "날개 달린 소형 드론이 낙하산이나 줄에 매단 상자를 내려놓는 방식의 자율 배송 회사입니다. 르완다·가나에서 혈액·백신 배송으로 시작해 지금은 5,000곳 이상의 병원·보건시설과 미국 소매 배송을 합니다. 고객은 병원·정부 보건망과 Walmart 같은 소매업체이고, 돈은 배송 건당 수수료와 운영 계약에서 나옵니다. 공동 창업자는 Keller Rinaudo(CEO), Keenan Wyrobek, Will Hetzler입니다. 댈러스-포트워스에서만 올해 100만 건 넘게 배송했고 하루 3,000건 이상이며 중간 배송 시간은 19분이라고 합니다(회사 주장).",
+   "funding": "Paradigm, WCM, Layer Global이 공동 리드했고 Valor Equity, Fidelity, Uber, Tiger Global, J.P. Morgan, ARK Invest, Salesforce Ventures가 참여했다는 보도가 있습니다. 11/5 발표이며 Walmart와의 신규 다년 계약(최대 300개 신규 배송 거점)과 함께 나왔습니다. 신주 발행인지 구주 매출(secondary)이 섞였는지는 공개되지 않았습니다 [미확인].",
+   "history": "2023.4 Series F $330M(밸류 $4.2B) → 2026.1 약 $600M(밸류 $7.6B) → 이번 $1.5B(밸류 $21.5B)로 10개월 만에 약 2.8배입니다. 누계 조달은 공개되지 않았고 제3자 추정치는 약 $1.8~2B입니다 [미확인].",
+   "metrics": "누적 약 1억 5천만 마일 자율 운항, 올해 DFW에서 100만 건 이상 배송(모두 회사 주장). 매출·마진·병원 계약의 유료/파일럿 비율은 공개되지 않았습니다 [미확인].",
+   "why": "<b>드론 배송이 '신기한 시연'에서 대형 소매 유통망의 인프라로 인정받기 시작했다는 신호입니다.</b> 트리거는 Walmart의 300개 거점 확대와 8월 Uber 파트너십(2029년 하루 100만 건 목표)입니다. 같은 주 Shield AI·Harbinger처럼 '미국 내 제조·실물 인프라'에 큰 자금이 몰리는 흐름의 일부이며, 이번 라운드 자금은 미국 내 제조 확대와 전국 배송망에 쓰입니다. 리스크는 매출이 공개되지 않은 채 밸류가 약 2.8배 뛰었다는 점, Amazon Prime Air·Alphabet Wing 같은 경쟁사가 자체 자금으로 확장 중이라는 점입니다.",
+   "sources": [
+    ["Crunchbase", "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/"],
+    ["Value Add VC", "https://valueaddvc.com/blog/zipline-valuation-2026-215b-walmart-uber-drone-delivery"],
+    ["RuntimeWire", "https://runtimewire.com/article/zipline-closes-1-5b-21-5b-valuation-300-walmart-drone-sites"],
+    ["Phemex", "https://phemex.com/news/article/zipline-valued-at-215b-after-15b-funding-round-led-by-paradigm-102549"]
+   ],
+   "site": "https://www.flyzipline.com"
+  },
+  {
+   "rank": 3,
+   "rank_estimated": false,
+   "name": "CesiumAstro",
+   "sector": "우주 · 위성 통신",
+   "amount_m": 730,
+   "round": "Series D (주식 $630M + 부채 $100M)",
+   "valuation": "$4.5B 이상",
+   "lead": "Janus Henderson (주식) / 미 수출입은행·J.P. Morgan (부채)",
+   "hq": "미국 텍사스 오스틴 · 설립연도 [미확인]",
+   "what": "인공위성에 들어가는 위상배열(phased-array) 안테나와 통신 장비, 그리고 이를 쓴 위성 플랫폼을 만드는 회사입니다. 위상배열은 안테나를 움직이지 않고 전파 방향을 전자적으로 바꾸는 기술입니다. 고객은 위성 제조사와 정부·방산 기관이고 돈은 장비·플랫폼 납품에서 나왔지만, 이번 자금으로 자체 위성 통신망을 운영하는 사업자로 전환하려 합니다. 창업자 겸 CEO Shey Sabripour는 다른 회사 위성이 쓰는 무선 통신기를 만들어 온 경력자입니다. 공개 자료상 계획 중인 망은 위성 737기 규모의 'Synchronicity'로 보이나 Bloomberg는 배치 일정을 밝히지 않았습니다 [미확인].",
+   "funding": "Janus Henderson이 주식 약 $630M을 리드했고 Insight Partners, Sands Capital, Sumitomo Corporation of Americas, Woven Capital, Magnetar 등이 참여했다는 보도가 있습니다. $100M는 미 수출입은행(EXIM)과 J.P. Morgan의 부채입니다. 11/5 발표이며 Crunchbase는 밸류를 '$4.5B 초과'로만 표기했습니다.",
+   "history": "올해 초 Series C는 약 $470M(주식 $270M + 부채 $200M이라는 정리도 있음)로 매체마다 다릅니다 [미확인]. 직전 밸류가 확인되지 않아 상승 배수는 계산하지 못했습니다.",
+   "metrics": "매출·수주 잔고·직원 수는 확인하지 못했습니다 [미확인]. 위상배열 위성 설계 'Element'의 1호 임무가 성공했다고 회사는 밝혔습니다(회사 주장).",
+   "why": "<b>위성 부품 회사가 직접 통신망 운영자가 되려는 '수직 통합' 베팅이 자금을 받았습니다.</b> 우주 기반 통신은 정부·군의 주권·보안 수요가 커졌고, Janus Henderson 같은 공모시장 대형 기관이 리드한 점은 상장 전 단계 신호로도 읽힙니다. 같은 주 Northwood(지상국)와 함께 우주 인프라 양쪽 끝(위성·지상)에 큰 돈이 들어갔습니다. 리스크는 위성 737기를 쏘아 올리는 막대한 자본과 일정 불확실성, 그리고 수주·매출 근거가 공개되지 않은 점입니다.",
+   "sources": [
+    ["Crunchbase", "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/"],
+    ["RuntimeWire", "https://runtimewire.com/article/cesiumastro-raises-730m-series-d-satellite-network"],
+    ["SatNews", "https://satnews.com/2026/11/06/cesiumastro-secures-730m-series-d-at-4-5b-valuation-to-deploy-synchronicity-constellation/"],
+    ["The Next Web", "https://thenextweb.com/news/cesiumastro-730m-series-d-synchronicity-satellite-constellation"]
+   ],
+   "site": "https://cesiumastro.com"
+  },
+  {
+   "rank": 4,
+   "rank_estimated": false,
+   "name": "Northwood Space",
+   "sector": "우주 · 위성 지상국",
+   "amount_m": 375,
+   "round": "Series C",
+   "valuation": "약 $2B (보도 기준, 회사 미확인)",
+   "lead": "Andreessen Horowitz, DFJ Growth",
+   "hq": "미국 캘리포니아 토런스 · 2024년 설립",
+   "what": "위성과 지구가 통신하는 '지상국 안테나'를 직접 만들고 운영하는 회사입니다. 위성 한 대가 하늘을 지나는 몇 분 동안만 통신이 가능해 지상국 확보가 병목인데, Northwood는 안테나 6대의 위성과 동시에 통신하는 Portal과 고출력 접시형 Prism을 만듭니다. 고객은 위성 운영사와 정부 기관이고, 소프트웨어로 통신 시간을 예약·변경·취소할 수 있는 서비스형 모델입니다. 공동 창업자는 전직 배우이자 기업가인 Bridgit Mendler와 Griffin Cleverly입니다. 올 1월 이후 두 개 대륙에 6개 지점을 가동했고 미 우주군 위성통제망에 용량을 더하는 $49.8M 계약을 수주했습니다.",
+   "funding": "a16z와 DFJ Growth가 공동 리드했고 Washington Harbour Partners가 추가 투자(follow-on)했으며 In-Q-Tel, Alpine Space Ventures, Stepstone이 참여했습니다. 11/2 발표이며 HSBC Innovation Banking의 다년 신용한도도 별도로 확보했습니다. $2B 밸류는 Bloomberg 등 보도로 회사가 확인한 것은 아닙니다 [미확인].",
+   "history": "2026.1 Series B $100M(Washington Harbour 리드, a16z 공동 리드라는 보도도 있음) → 9개월 만에 $375M Series C. Series A $30M 포함 누계 약 $505M로 추정됩니다(합산 추정). 직전 밸류가 없어 배수는 계산하지 못했습니다.",
+   "metrics": "직원 140명(향후 3년 약 400명 채용 계획), 185,000평방피트 토런스 본사 겸 공장 개소, 제조 능력 최소 5배 확대 계획(회사 설명). 매출은 공개되지 않았습니다 [미확인].",
+   "why": "<b>우주 투자의 병목이 '위성 발사'에서 '지상 연결'로 옮겨 가고 있습니다.</b> 위성이 늘어도 통신할 지상국이 부족하다는 점이 트리거이며, 미 우주군 계약이 공공 수요를 확인해 줬습니다. 같은 주 CesiumAstro와 함께 우주 인프라의 양 끝에 큰 돈이 들어갔고, a16z가 같은 주 Tutor Intelligence도 이끈 점이 눈에 띕니다. 리스크는 공장 증설과 안테나 대량 생산 실행, 그리고 매출 비공개 상태의 높은 밸류입니다.",
+   "sources": [
+    ["Crunchbase", "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/"],
+    ["Washington Technology", "https://www.washingtontechnology.com/companies/2026/11/northwood-closes-375m-series-c-raise-space-network-ambitions/416973/"],
+    ["Value Add VC", "https://valueaddvc.com/pulse/northwood-space-375m-series-c-2b-valuation-2026"],
+    ["FourWeekMBA", "https://fourweekmba.com/ai-northwood-space-raises-375m-at-2b-in-a16z-co-led-round/"]
+   ],
+   "site": "https://www.northwood.space"
+  },
+  {
+   "rank": 5,
+   "rank_estimated": false,
+   "name": "Applied Compute",
+   "sector": "AI · 맞춤 모델 학습/추론 클라우드",
+   "amount_m": 350,
+   "round": "Series B [추정] (회사는 단계 미표기)",
+   "valuation": "$3.25B (pre/post 미구분)",
+   "lead": "Elad Gil",
+   "hq": "미국 캘리포니아 샌프란시스코 · 2025년경 설립",
+   "what": "기업이 자기 데이터로 맞춤 AI 모델을 학습시키고 운영하도록 돕는 AI 클라우드입니다. 공개된 오픈웨이트(가중치 공개) 모델 위에 고객 맞춤 모델을 만들고, 학습 플랫폼 AC2와 추론 서비스를 함께 팝니다. 고객은 Microsoft, Shopify, Mercor, Harvey, DoorDash, Cognition, Clay, Decagon 등이며, 돈은 학습·추론 사용료에서 나옵니다. 고객의 40%가 학습과 서빙을 모두 쓴다고 합니다(회사 주장). 창업자는 OpenAI 출신인 Rhythm Garg, Linden Li, Yash Patil이며 비용이 프런티어 모델의 절반 이하라는 점이 판매 논리입니다.",
+   "funding": "Elad Gil이 리드했고 Kleiner Perkins, Lux Capital, Nvidia, Blackstone, Shopify Ventures, HubSpot Ventures가 참여했다고 보도됩니다(참여사 목록은 매체마다 다름). 11/2 발표이며 회사 글은 $3.25B이 pre인지 post인지 밝히지 않았습니다.",
+   "history": "2025.6 시드 $20M(밸류 $100M, 익명 소식통) → 2026.4 $80M(밸류 $1.3B post, Kleiner 리드) → 이번 $3.25B로 7개월 만에 약 2.5배입니다. 누계 조달은 약 $450M(합산 추정)이나 공개되지 않았습니다.",
+   "metrics": "설립 18개월 미만에 ARR $100M 돌파(회사 주장), 7월 이후 학습 실행 1,700회 이상, 하루 추론 토큰 1조 개 이상, 직원은 1월 이후 3배(85%가 연구·엔지니어). 모두 회사 주장이며 감사되지 않았습니다.",
+   "why": "<b>'모델을 직접 만드는 회사'가 아니라 '모델을 기업에 맞게 만들어 주는 회사'에 돈이 몰립니다.</b> 트리거는 ARR $100M이라는 빠른 매출 성장과 Nvidia·Blackstone 같은 컴퓨트·자본 쪽 전략 참여입니다. 같은 주 Fal(추론 인프라, $16B)·Traversal(에이전트)과 함께 AI 인프라·응용층에 실매출 기반 대형 라운드가 이어지는 흐름의 일부입니다. 리스크는 오픈웨이트 모델과 클라우드 대기업이 같은 기능을 번들로 제공할 가능성, 그리고 ARR의 정의(사용량 기반 변동 매출 여부)가 불분명하다는 점입니다.",
+   "sources": [
+    ["Crunchbase", "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/"],
+    ["FourWeekMBA", "https://fourweekmba.com/ai-ex-openai-trios-applied-compute-hits-100m-run-rate/"],
+    ["AI Weekly", "https://aiweekly.co/alerts/applied-compute-lands-350m-at-325b-led-by-elad-gil-with-nvidia-in-and-100m-arr"],
+    ["Webrazzi", "https://webrazzi.com/2026/11/04/applied-compute-3-25-milyar-dolar-degerleme-uzerinden-350-milyon-dolar-yatirim-aldi/"]
+   ],
+   "site": "https://appliedcompute.com"
+  },
+  {
+   "rank": 6,
+   "rank_estimated": false,
+   "name": "Harbinger",
+   "sector": "전기 트럭 · 에너지 저장 · 방산",
+   "amount_m": 240,
+   "round": "Series D",
+   "valuation": "비공개",
+   "lead": "Tiger Global, Capricorn Investment Group, Ridgeline",
+   "hq": "미국 캘리포니아 가든그로브 · 2022년 설립",
+   "what": "택배·배송용 중형 전기 트럭 섀시(차대)를 만드는 회사입니다. Class 5·6 차량용 플랫폼을 완성차 업체가 아니라 차체 제작사·플릿(차량 운영사)에 공급하고, 최근에는 비상 차량, 군용 무인 하이브리드 플랫폼, 배터리 저장으로 사업을 넓히고 있습니다. 고객은 FedEx가 대표적이며 53대 파일럿에서 시작해 2,000대($300M 이상) 주문으로 커졌고 FedEx 임원이 이사회에 합류했습니다. 창업자는 Canoo·QuantumScape 출신 인력이라는 보도만 있고 개인 이름은 이번에 확인하지 못했습니다 [미확인]. 자율주행 스타트업 Phantom AI를 인수해 무인 차량 능력도 붙였습니다.",
+   "funding": "Tiger Global, Capricorn의 Technology Impact Fund, 방산 전문 펀드 Ridgeline이 공동 리드했습니다. 기존 FedEx, Maniv, Greycroft, Leitmotif(폭스바겐 계열)가 이어 참여했고 Fidelity가 새로 들어왔다는 보도가 하나 있습니다 [미확인]. 11/5 Axios Pro가 처음 전했고 Goldman Sachs·Morgan Stanley가 배정 주관을 맡았습니다.",
+   "history": "2025.1 Series B $100M → 2025.11 Series C $160M(FedEx·THOR·Capricorn 리드) → 2026.11 Series D $240M. Bloomberg 기준 누계 $650M 이상입니다. 밸류는 모든 라운드에서 공개되지 않았습니다.",
+   "metrics": "FedEx 2,000대 주문($300M 이상). 매출·인도 대수는 공개되지 않았습니다 [미확인]. TechCrunch는 IPO 검토를 언급했다고 하나 일정은 확인되지 않았습니다 [미확인].",
+   "why": "<b>전기 트럭 스타트업이 '전동화' 하나로는 부족해 방산·에너지 저장이라는 두 번째 성장 축을 달고 투자받는 구도입니다.</b> 트리거는 FedEx 대형 주문으로 양산 능력이 검증된 점과 방산 전문 펀드(Ridgeline)의 공동 리드입니다. 같은 주 Shield AI·CesiumAstro와 같이 '방산 논리가 하드테크 자금을 연다'는 흐름이고, 전기 트럭 업계의 부침(다른 업체 구조조정)을 생각하면 살아남은 승자에게 자본이 집중되는 장면입니다. 리스크는 FedEx 의존도, 매출·밸류 비공개, 방산 매출이 정부 조달 일정에 좌우된다는 점입니다.",
+   "sources": [
+    ["Crunchbase", "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/"],
+    ["Axios Pro Rata (11/5)", "https://www.axios.com/pro/all-deals/2026/11/05/pro-rata-premium-first-look"],
+    ["Transport Topics", "https://www.ttnews.com/articles/harbinger-raises-240m-power-defense"],
+    ["Value Add VC", "https://valueaddvc.com/pulse/harbinger-240m-series-d-defense-2026"]
+   ],
+   "site": "https://harbingermotors.com"
+  },
+  {
+   "rank": 7,
+   "rank_estimated": false,
+   "name": "Sentra",
+   "sector": "AI · 데이터 보안",
+   "amount_m": 150,
+   "round": "전략투자 (일부 매체 Series C)",
+   "valuation": "비공개",
+   "lead": "Capital One Ventures",
+   "hq": "미국 뉴욕·이스라엘 텔아비브 · 2021년 설립",
+   "what": "기업 데이터에 누가, 어떤 AI 에이전트가 접근할 수 있는지를 찾아내고 통제하는 데이터 보안 소프트웨어입니다. 민감한 데이터를 자동으로 분류하고, 상속된 권한까지 지도처럼 그려 보여 주며, 에이전트가 이상하게 행동하면 접근을 회수합니다. 분석이 고객 환경 안에서 돌아 데이터를 벤더로 복사하지 않는 것이 특징입니다. 고객은 대기업 보안팀이고 돈은 구독입니다. 공동 창업자 겸 CEO는 Yoav Regev이며 Lyft의 CISO가 발표문에 인용됐으나 상업 관계는 확인되지 않았습니다.",
+   "funding": "Capital One Ventures가 리드했고 기존 투자자 Bessemer, Zeev Ventures, Standard Investments, Munich Re Ventures, Key1 Capital이 참여했습니다. Capital One 대표가 이사회에 합류합니다. 11/4 발표이며 회사는 이를 '전략 자본 투자'라고 부르고 SiliconANGLE는 Series C로 적었습니다.",
+   "history": "2025.4 Series B $50M(Key1 리드) → 이번 $150M로 라운드 크기가 3배입니다(FourWeekMBA 계산). 누계 조달은 $250M 이상으로 보도됩니다. 밸류는 공개되지 않았습니다.",
+   "metrics": "최근 1년 매출이 300% 넘게 늘었다는 회사 주장만 있고 ARR·고객 수는 공개되지 않았습니다 [미확인].",
+   "why": "<b>AI 에이전트가 기업 데이터를 마구 읽기 시작하면서 '데이터 접근 통제'가 독립된 보안 시장이 되고 있습니다.</b> 트리거는 은행 계열 전략투자자(Capital One)가 직접 이사회까지 들어온 점으로, 금융권 수요를 겨냥한 신호입니다. 같은 분야 Cyera 등 경쟁사가 있고 같은 주 CrowdStrike·Palo Alto Networks가 AI 보안 스타트업 인수에 나선 점도 이 흐름의 일부입니다. 리스크는 대형 보안 플랫폼이 같은 기능을 번들로 넣을 가능성과 매출·고객 수가 비공개인 점입니다.",
+   "sources": [
+    ["Crunchbase", "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/"],
+    ["Calcalist CTech", "https://calcalistech.com/ctechnews/article/s1jextotml"],
+    ["RuntimeWire", "https://runtimewire.com/article/sentra-raises-150m-capital-one-ventures-ai-data-security"],
+    ["FourWeekMBA", "https://fourweekmba.com/ai-sentra-raises-150m-3x-its-series-b-to-govern-agent-access/"]
+   ],
+   "site": "https://www.sentra.io"
+  },
+  {
+   "rank": 8,
+   "rank_estimated": false,
+   "name": "Traversal",
+   "sector": "AI · 장애 대응(SRE) 에이전트",
+   "amount_m": 120,
+   "round": "Series B",
+   "valuation": "$1B (post)",
+   "lead": "Kleiner Perkins, Redpoint Ventures, Khosla Ventures (공동)",
+   "hq": "미국 뉴욕 · 2023년 설립",
+   "what": "서비스에 장애가 났을 때 원인을 찾고 고치는 일을 AI 에이전트가 대신하는 회사입니다. 사이트 신뢰성 엔지니어링(SRE, 서비스를 안정적으로 돌리는 일)이라는 분야로, 코드 변경 기록·배포 로그·텔레메트리(운영 데이터)를 합쳐 운영 환경의 '생산 월드 모델'을 만들고 여러 가설을 동시에 검증합니다. 고객은 Nubank, Harvey, DigitalOcean, PepsiCo 등 대기업 엔지니어링 조직이고 돈은 구독입니다. 공동 창업자는 Raaz Dwivedi, Anish Agarwal, Ahmed Lone, Raj Agrawal이며 개인 이력은 이번에 확인하지 못했습니다 [미확인].",
+   "funding": "Kleiner Perkins, Redpoint, Khosla가 공동 리드했고 Sequoia, Battery Ventures, Amex Ventures가 참여했습니다. 11/3 발표입니다. 한 소식통(Silicon Valley Investclub)은 pre-money $880M로 적었으나 다른 매체에서 교차 확인하지 못했습니다 [미확인].",
+   "history": "2025.6 스텔스 해제 시 시드+Series A $48M(Sequoia·Kleiner) → 2025.12 Amex Ventures 전략투자 → 이번 $120M(밸류 $1B). 누계 약 $168~173M(매체별 상이)입니다. 직전 밸류가 공개되지 않아 배수는 계산하지 못했습니다.",
+   "metrics": "올해 들어 ARR이 9배 늘었다는 보도(회사 주장, 절대액 비공개), 월간 조사 건수가 513건에서 약 7만 3천 건으로 증가(회사 주장).",
+   "why": "<b>AI 코딩이 코드를 쏟아내면 '운영 장애를 고치는 AI'가 그 뒤를 받치는 필수 계층이 된다는 베팅입니다.</b> 트리거는 AI가 쓴 코드가 늘며 배포·장애 규모가 커진 점과 대기업 고객의 실사용 증가입니다. 같은 분야 Resolve AI가 올해 $1B~$1.5B 밸류를 받아 비교 기준이 생겼고, Datadog·PagerDuty 같은 기존 관측성(observability) 업체와 예산을 다툽니다. 리스크는 ARR 절대액이 비공개인 채 밸류가 $1B에 이른 점과 기존 플랫폼의 번들 대응입니다.",
+   "sources": [
+    ["Crunchbase", "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/"],
+    ["Goodwin", "https://www.goodwinlaw.com/en/news-and-events/news/2026/11/announcements-technology-goodwin-advises-traversal-120-million-series-b"],
+    ["Value Add VC", "https://valueaddvc.com/pulse/traversal-120m-series-b-1b-valuation-2026"],
+    ["Webrazzi", "https://webrazzi.com/2026/11/04/traversal-1-milyar-dolar-degerleme-uzerinden-120-milyon-dolar-yatirim-aldi/"]
+   ],
+   "site": "https://traversal.com"
+  },
+  {
+   "rank": 9,
+   "rank_estimated": false,
+   "name": "Ocient",
+   "sector": "AI · 데이터 분석 플랫폼",
+   "amount_m": 100,
+   "round": "Series C",
+   "valuation": "비공개",
+   "lead": "BOKA Capital, OCA Ventures (공동, 일부 매체는 BOKA만 언급)",
+   "hq": "미국 일리노이 시카고 · 설립연도 [미확인]",
+   "what": "초대형 데이터를 빠르고 전력 효율 좋게 분석하는 데이터베이스·분석 플랫폼입니다. 통신사 망 트래픽, 사이버보안 기록 같은 끊임없이 쏟아지는 데이터를 표본 추출 없이 통째로 분석합니다. 고객은 통신사와 국가안보 기관이 중심이고 온프레미스(자체 서버) 수요가 늘고 있으며, 돈은 소프트웨어·플랫폼 구독입니다. CEO는 John Morris이고 창업자는 이번에 확인하지 못했습니다 [미확인]. 제품 OcientAIQ는 수집·거버넌스·분석·에이전트 조율을 한데 묶은 구조입니다.",
+   "funding": "BOKA Capital과 OCA Ventures가 공동 리드했고 기존 Greycroft, In-Q-Tel, Blue Bear Capital, Buoyant Ventures, PSP Growth, Pritzker Group VC가 참여했습니다. BOKA가 이사회에 합류합니다. 11/5 발표입니다.",
+   "history": "2021.1 Series B $40M(Greycroft·OCA 리드) 등을 거쳐 이번 라운드 포함 누계 $260M입니다(Silicon Report). 밸류는 공개되지 않아 배수는 계산하지 못했습니다.",
+   "metrics": "회계연도(1월 종료) 매출이 3배 이상 늘 것으로 예상하고 직전 해에는 2배였다고 합니다(회사 주장). 국가안보 전용 자회사(Ocient National Security Solutions)와 인도 법인을 올해 설립했습니다.",
+   "why": "<b>'에이전트용 데이터 기반'이 Snowflake·Databricks 바깥의 특화 데이터베이스에도 자금을 끌어오고 있습니다.</b> 트리거는 통신·국가안보처럼 데이터를 외부로 내보내기 어려운 고객의 온프레미스 수요와 AI 에이전트의 데이터 처리량 증가입니다. CEO는 Snowflake·Databricks를 대체가 아니라 보완 관계로 설명하며 이번 자금이 흑자 전환까지 가기에 충분하다고 말했습니다(시점은 밝히지 않음). 리스크는 대형 플랫폼의 번들 압박과 확인되지 않은 매출 규모입니다.",
+   "sources": [
+    ["Crunchbase", "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/"],
+    ["Silicon Report", "https://www.siliconreport.com/ocient-raises-100-million-to-expand-agentic-ai-analytics"],
+    ["Axios Pro 엔터프라이즈 (11/7)", "https://www.axios.com/pro/enterprise-software-deals/2026/11/07/enterprise-software-deals-fal"],
+    ["Fundz", "https://app.fundz.net/fundings/ocient-funding-round-series-c-db0a6f"]
+   ],
+   "site": "https://ocient.com"
+  },
+  {
+   "rank": 10,
+   "rank_estimated": false,
+   "name": "Tutor Intelligence",
+   "sector": "로보틱스 · 물류 자동화",
+   "amount_m": 75,
+   "round": "Series B",
+   "valuation": "비공개",
+   "lead": "Andreessen Horowitz",
+   "hq": "미국 매사추세츠 워터타운 · 설립연도 [미확인]",
+   "what": "공장·물류센터에서 상자와 물건을 옮기는 로봇 'Sonny'와 'Cassie'를 만들고, 로봇이 쓰는 파운데이션 모델(범용 AI 모델)도 직접 학습시키는 회사입니다. 원격 인간 운영자 '튜터'가 로봇을 돕고, 그 작업 데이터가 모델을 더 똑똑하게 만드는 구조입니다. 고객은 미국 대형 제조·물류망이고, 로봇을 파는 것이 아니라 시간당 또는 집품(pick)당 과금하며 선구매·장기계약이 없습니다. 공동 창업자 Josh Gruenstein(CEO)과 Alon Kosowsky-Sachs는 MIT 컴퓨터과학·AI연구소(CSAIL)에서 출발했습니다. 시리얼·과자·화장품·장난감 같은 물건을 다루며 고객명은 공개되지 않았습니다.",
+   "funding": "a16z가 리드했고 Series A를 이끈 Union Square Ventures, 시드를 이끈 Neo가 참여했습니다. 11/2 발표이며 자금은 로봇 파운데이션 모델 학습과 로봇 제조·배치에 쓰입니다. 공동 10위인 Kalepa와 순위가 같아 기사 표기상 먼저 나온 이 딜을 10번째 카드로 썼습니다.",
+   "history": "2025.12 Series A $34M(USV 리드) → 이번 $75M, 누계 $117M입니다. 밸류는 공개되지 않아 배수는 계산하지 못했습니다.",
+   "metrics": "배치 시설 수가 1년 전보다 약 4배, 신규 로봇 도입 조직의 약 1/3이 기존 고객의 확장이라고 합니다(회사 주장). 2027년 말까지 계약 로봇 1,000대 이상을 목표로 합니다. 현재 로봇 대수·매출은 공개되지 않았습니다 [미확인].",
+   "why": "<b>로봇 회사가 '기계를 파는' 모델에서 '일을 시간 단위로 파는' 서비스형 모델로 옮겨 가고 있습니다.</b> 초기 자본 부담이 없는 과금 방식이 고객의 도입 장벽을 낮추고, 쌓인 현장 데이터가 모델 성능을 높이는 선순환이 트리거입니다. 같은 주 Northwood·Harbinger처럼 a16z 같은 대형 펀드가 미국 내 하드웨어 기반 사업에 큰 수표를 쓰는 흐름이며, 지난 주 Foundry Robotics·Bedrock Robotics와도 같은 피지컬 AI 계열입니다. 리스크는 원격 사람 운영자에 대한 의존, 로봇 제조 자본 부담, 매출·로봇 대수 비공개입니다.",
+   "sources": [
+    ["Crunchbase", "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/"],
+    ["Robotics 24/7", "https://www.robotics247.com/article/tutor-intelligence-raises-75m-series-b-to-scale-frontier-robotics-model-training-manufacturing-and-deployment"],
+    ["The Next Web", "https://thenextweb.com/news/tutor-intelligence-75m-series-b-a16z-robot-workers"],
+    ["citybiz", "https://www.citybiz.co/article/928273/tutor-intelligence-raises-75m-series-b-led-by-andreessen-horowitz/"]
+   ],
+   "site": "https://www.tutorintelligence.com"
+  }
+ ],
+ "others": [
+  "<b>Kalepa</b> — 보험 언더라이팅 AI가 Updata Partners 리드로 $75M Series B(밸류 $470M)를 받았습니다. Crunchbase 공동 10위(Tutor와 동률)로 카드 대신 여기에 적었습니다. 매출·고객이 1년 새 3배, 2년 넘게 현금흐름 흑자라는 회사 주장이 있습니다(<a href=\"https://www.businessinsurance.com/ai-powered-insurance-startup-kalepa-valued-at-470-million/\">Business Insurance</a>).",
+  "<b>Fal</b> — AI 추론·생성 미디어 플랫폼이 Bessemer 리드로 $1.3B Series F(밸류 $16B, 4월 $8B의 2배)를 받았다는 Bloomberg 인용 보도입니다. 라운드가 10월에 마감된 것으로 알려져 Crunchbase 이번 주 목록에는 없습니다. 연환산 매출 $800M은 익명 소식통 수치입니다 [미확인](<a href=\"https://www.axios.com/pro/enterprise-software-deals/2026/11/07/enterprise-software-deals-fal\">Axios</a>).",
+  "<b>Nooks</b> — AI 영업 스타트업이 General Catalyst의 Customer Value Fund로부터 $500M를 약정받았습니다(11/4). 지분이 아니라 수익 분배형 비희석 자본이어서 Top 10 기준과 다릅니다(<a href=\"https://www.axios.com/pro/all-deals/2026/11/04/pro-rata-premium-first-look-nxera-nooks-onvaro\">Axios</a>).",
+  "<b>Alethio Therapeutics</b> — 영국 골수증식성 종양 신약 스타트업이 Sofinnova·RA Capital 공동 리드로 $90M Series A를 받았습니다. 미국 기업이 아니어서 Crunchbase 목록 밖입니다(<a href=\"https://www.axios.com/pro/biotech-deals/2026/11/07/biotech-deals-of-the-week\">Axios Pro</a>).",
+  "<b>Humble Robotics</b> — 자율 전기 트럭 스타트업이 Obvious Ventures·Eclipse·EIP 후원으로 $51M Series A를 받았습니다(Axios Pro 요약 기준)."
+ ],
+ "sectors": [
+  {
+   "name": "AI",
+   "stat": "약 $720M · Top 10 중 4건",
+   "text": "Applied Compute($350M, 맞춤 모델 클라우드), Sentra($150M, 에이전트 데이터 보안), Traversal($120M, SRE 에이전트), Ocient($100M, 데이터 분석)가 이름을 올렸습니다. 이번 주도 거대 모델 랩 라운드는 Top 10에 없고 '모델 위·옆의 인프라와 보안' 층에 돈이 갔습니다. Top 10 밖에서는 Fal($1.3B, $16B 밸류, Bloomberg 인용)과 Nooks($500M 수익 분배형 자본)가 큰 딜입니다. 맥락으로 Crunchbase 10월 월간 집계에서 글로벌 투자 $59B 중 AI 비중은 66%였고 7개 $1B+ 라운드가 월 총액의 40% 이상을 차지했습니다."
+  },
+  {
+   "name": "바이오 · 헬스",
+   "stat": "이번 주 Top 10 없음",
+   "text": "Crunchbase 이번 주 Top 10에는 바이오·헬스 딜이 없었습니다. Top 10 밖에서는 영국 Alethio Therapeutics가 $90M Series A(Sofinnova·RA Capital 공동 리드)를 받은 것이 확인됩니다. 미국 바이오 대형 딜은 이번 조사 범위에서 찾지 못했습니다. 10월 월간 기사에도 바이오 섹터 수치가 없어 분기·월간 맥락은 제시하지 못합니다."
+  },
+  {
+   "name": "국방 · 우주 · 하드테크",
+   "stat": "약 $4.9B · Top 10 중 6건",
+   "text": "Shield AI($2B), Zipline($1.5B), CesiumAstro($730M), Northwood($375M), Harbinger($240M), Tutor Intelligence($75M)가 합쳐 약 $4.92B로 Top 10 금액의 약 87%입니다. 방산 자율 시스템·대드론 레이더·위성 통신·지상국·전기 트럭 등 서로 다른 분야가 모두 '미국 내 실물 인프라와 안보' 논리로 묶입니다. Top 10 밖에서는 Humble Robotics($51M Series A)가 확인됩니다. 지난 주 Re:Build·Bedrock·Firehawk에 이어 두 주 연속 하드테크가 Top 10을 지배했고, 10월 월간 기사에서도 제조·로보틱스·반도체·에너지가 주요 대형 딜로 언급됩니다."
+  },
+  {
+   "name": "핀테크 · 커머스",
+   "stat": "$75M · 동률 10위 1건(Top 10 카드 밖)",
+   "text": "이번 주 Top 10 카드에는 핀테크·커머스가 없습니다. 공동 10위 Kalepa(보험 AI, $75M Series B, 밸류 $470M)가 인슈어테크 딜입니다. Axios는 같은 주 Pliant($80M)의 핀테크 딜을 전했으나 세부는 유료 요약이라 확인하지 못했습니다 [미확인]. 맥락으로 Crunchbase 3분기 핀테크 기사 제목은 '핀테크 투자 21% 감소, 딜 건수 감소'입니다. 지난 주 Kalshi($1B) 같은 메가딜이 없어 이번 주는 조용했습니다."
+  },
+  {
+   "name": "기후 · 에너지",
+   "stat": "$240M · Top 10 중 1건 (하드테크와 중복 집계)",
+   "text": "Harbinger($240M)가 전기 트럭 중심에서 배터리 저장·방산으로 확장하며 Series D를 받았습니다(하드테크 섹터와 중복 집계). 순수 기후 대형 딜은 이번 주 Top 10에 없습니다. 맥락으로 10월 Axiom이 데이터센터 전력·계통 용량으로 $2B를 받는 등 '전력 수요'가 기후 투자 논리의 중심이 되고 있습니다(Crunchbase 10월 기사 언급). 이번 주 그 외 기후 딜은 확인하지 못했습니다."
+  }
+ ],
+ "stages": [
+  {
+   "stage": "시드 · 프리시드",
+   "deals": "이번 주 Top 10에는 시드 단계 없음<br>Dulo $130M 시드 (StrictlyVC 보도, 정확한 날짜 [미확인])",
+   "note": "Top 10에는 시드가 없었습니다. StrictlyVC가 전한 Dulo(하드웨어 설계 AI) $130M 시드는 날짜를 확인하지 못해 참고용입니다. Crunchbase 10월 기사에는 단계별 수치가 없어 시드 총액 맥락은 제시하지 못합니다."
+  },
+  {
+   "stage": "시리즈 A",
+   "deals": "이번 주 Top 10에는 Series A 없음<br>Alethio $90M (영국, Sofinnova·RA Capital)<br>Humble Robotics $51M (Obvious·Eclipse·EIP)<br>Firmly $15M (Squarepoint 리드)",
+   "note": "Top 10에 Series A는 없습니다. 지난 주 General Compute·Foundry($100M씩) 같은 $100M급 Series A도 이번 주에는 보이지 않았고, A 단계는 $15M~$90M대 딜 위주였습니다."
+  },
+  {
+   "stage": "시리즈 B~E · 성장",
+   "deals": "Shield AI $2B (H + 구조화 지분)<br>Zipline $1.5B (후기)<br>CesiumAstro $730M (D)<br>Northwood $375M (C)<br>Applied Compute $350M (B [추정])<br>Harbinger $240M (D) · Sentra $150M (전략투자)<br>Traversal $120M (B) · Ocient $100M (C)<br>Tutor Intelligence $75M (B)",
+   "note": "Top 10 전부가 Series B 이상 성장 단계입니다. 직전 밸류 대비 상승 배수는 Zipline 약 2.8배(10개월), Applied Compute 약 2.5배(7개월), Shield AI 약 2.3배(8개월)로 확인되는 것만 모두 2~3배입니다."
+  }
+ ],
+ "stage_note": "Top 10 합계 약 $5.6B 중 $100M 이상 라운드가 9건(Tutor만 $75M)이고, Series A 이하는 0건으로 전부 Series B 이상 성장 단계입니다. Crunchbase 10월 글로벌 기준 총 $59B(전년 대비 +45%), 7개 $1B+ 라운드가 40% 이상을 차지했고 AI 비중은 66%였습니다(<a href=\"https://news.crunchbase.com/venture/october-2026-global-startup-funding-strong-china-deepseek/\">Crunchbase 10월</a>). 단계별 분기 수치는 3분기 글로벌 기준 후기 단계 $105B, 초기 $40.6B, 시드 $13B이었습니다(<a href=\"https://news.crunchbase.com/venture/q3-2026-global-startup-funding-ai-billion-dollar-rounds-exits-data/\">Crunchbase Q3</a>). <b>\"성장 단계 메가라운드가 총액을 좌우하고, 이번 주는 방산·우주·드론 같은 물리 세계 인프라가 중심이었다\"</b>는 구도입니다.",
+ "exits": [
+  "<b>이번 주 VC 지원 스타트업 인수</b> — Shield AI가 레이더 기업 Echodyne을 최대 $5.3B에 인수합니다(11/5, 종결 2027년 초 예정, 규제 승인 조건). Dropbox는 클라우드 스토리지 Tigris Data를 $350M에 인수합니다(11/5, Q4 종결 예상). Meta는 AI 코딩 스타트업 Conductor를 인수했습니다(11/4, 조건 비공개, 서비스는 11/20 종료). Omen AI는 Aquatic Labs를 $16M에 인수합니다(11/2)(<a href=\"https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/?amp=\">TechCrunch</a>, <a href=\"https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/\">TechCrunch</a>).",
+  "<b>협상 중</b> — Palo Alto Networks가 AI 에이전트 보안 스타트업 Clutch Security를 현금 $500M과 성과 조건부 지급으로 인수하기 위해 협상 중이라는 보도입니다(11/5, 확정 아님)(<a href=\"https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/\">TechCrunch</a>). CrowdStrike가 AI 보안 스타트업 두 곳을 합쳐 약 $500M에 인수했다는 제목만 확인했고 세부는 읽지 못했습니다 [미확인].",
+  "<b>IPO 진행</b> — Crunchbase 10월 기사는 미국 IPO 시장이 Anthropic의 11월 상장 예정을 앞두고 조용했다고 전하며, SpaceX의 6월 상장은 $85.7B를 조달했다고 적었습니다. 일부 보도는 Anthropic 공개 S-1이 10/26 제출됐고(Nasdaq 'ANT') 로드쇼가 11/10 이후일 것이라 전하지만, 가격 범위·일정 공식 확정은 이번에 확인하지 못했습니다 [미확인].",
+  "<b>10월 엑시트 환경</b> — Crunchbase 10월 기준 $1B 이상으로 인수된 VC 지원 기업이 최소 9곳이며, 대표 사례는 Uber의 ezCater($2.3B) 인수입니다. Moonshot AI는 홍콩 IPO를 비공개 신청한 것으로 알려졌습니다."
+ ],
+ "implications": [
+  "<b>방산·우주·하드테크가 두 주 연속 Top 10의 중심입니다.</b> 이번 주 6건이 87%를 차지했고, 투자 논리는 소프트웨어 마진보다 '미국 내 공급망·안보·통신 주권'입니다. 그만큼 자본 부담과 실행·조달 일정 리스크가 커지므로 매출 공개 여부와 계약 이행을 같이 봐야 합니다.",
+  "<b>AI는 '모델'에서 '실매출이 보이는 인프라·보안·에이전트'로 선별이 좁혀집니다.</b> Applied Compute(ARR $100M)와 Traversal(ARR 9배)처럼 숫자가 있는 딜이 밸류 2~3배 상승을 받았고, 숫자가 없는 Sentra·Ocient는 밸류 비공개입니다. 회사 주장 ARR의 정의와 검증이 비교의 첫 기준입니다.",
+  "<b>M&A가 VC 엑시트의 핵심 통로로 올라섰습니다.</b> Shield AI의 Echodyne($5.3B), Palo Alto의 Clutch(협상), CrowdStrike의 AI 보안 인수가 한 주에 몰렸고 10월에도 $1B+ 인수가 9건 이상이었습니다. 반면 공모 IPO는 Anthropic 일정 대기로 조용해, 초대형 IPO의 성공 여부가 후기 단계 밸류의 다음 분기점입니다."
+ ],
+ "watch": [
+  "Anthropic IPO — 공개 S-1의 가격 범위 포함 수정본과 로드쇼 시작 여부(11월 중순 보도가 있으나 확정 아님 [미확인]). 상장 성과가 후기 단계 밸류에 미칠 영향을 봅니다.",
+  "Shield AI–Echodyne 인수의 규제 승인 진행과 Series H·Blackstone 지분의 실제 마감 구조 확인(일부 매체는 Series H가 이미 완료됐다고 설명).",
+  "Palo Alto Networks의 Clutch Security($500M) 인수 확정 여부와 CrowdStrike 인수 세부 — AI 에이전트 보안 M&A의 가격대 신호입니다.",
+  "Crunchbase 다음 주간 Top 10과 11월 월간 집계 — 10월($59B)의 메가딜 의존이 11월에도 이어지는지, Cohere $5B 클로즈 반영 여부를 확인합니다."
+ ],
+ "sources": [
+  ["Crunchbase — 주간 Top 10 (10/31~11/6)", "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/"],
+  ["Crunchbase — 10월 글로벌 월간", "https://news.crunchbase.com/venture/october-2026-global-startup-funding-strong-china-deepseek/"],
+  ["Crunchbase — Q3 글로벌", "https://news.crunchbase.com/venture/q3-2026-global-startup-funding-ai-billion-dollar-rounds-exits-data/"],
+  ["Crunchbase — Q3 핀테크", "https://news.crunchbase.com/venture/q3-2026-fintech-startup-funding-deal-count-fell-ai/"],
+  ["Axios Pro Rata 11/5 — Harbinger", "https://www.axios.com/pro/all-deals/2026/11/05/pro-rata-premium-first-look"],
+  ["Axios Pro Rata 11/4 — Nooks", "https://www.axios.com/pro/all-deals/2026/11/04/pro-rata-premium-first-look-nxera-nooks-onvaro"],
+  ["Axios Pro 엔터프라이즈 11/7 — Fal·Sentra·Ocient", "https://www.axios.com/pro/enterprise-software-deals/2026/11/07/enterprise-software-deals-fal"],
+  ["Axios Pro 핀테크 11/7 — Kalepa", "https://www.axios.com/pro/fintech-deals/2026/11/07/fintech-deals-pliant-global-payments-kalepa"],
+  ["Washington Technology — Shield AI·Echodyne", "https://www.washingtontechnology.com/companies/2026/11/shield-ai-acquires-radar-maker-echodyne-53-billion-deal/417086/"],
+  ["Tectonic Defense — Shield AI", "https://www.tectonicdefense.com/shield-ai-raises-2-5b-to-buy-echodyne-for-5-3b/"],
+  ["Value Add VC — Zipline", "https://valueaddvc.com/blog/zipline-valuation-2026-215b-walmart-uber-drone-delivery"],
+  ["RuntimeWire — Zipline", "https://runtimewire.com/article/zipline-closes-1-5b-21-5b-valuation-300-walmart-drone-sites"],
+  ["RuntimeWire — CesiumAstro", "https://runtimewire.com/article/cesiumastro-raises-730m-series-d-satellite-network"],
+  ["SatNews — CesiumAstro", "https://satnews.com/2026/11/06/cesiumastro-secures-730m-series-d-at-4-5b-valuation-to-deploy-synchronicity-constellation/"],
+  ["Washington Technology — Northwood", "https://www.washingtontechnology.com/companies/2026/11/northwood-closes-375m-series-c-raise-space-network-ambitions/416973/"],
+  ["FourWeekMBA — Applied Compute", "https://fourweekmba.com/ai-ex-openai-trios-applied-compute-hits-100m-run-rate/"],
+  ["Transport Topics — Harbinger", "https://www.ttnews.com/articles/harbinger-raises-240m-power-defense"],
+  ["Calcalist CTech — Sentra", "https://calcalistech.com/ctechnews/article/s1jextotml"],
+  ["Goodwin — Traversal", "https://www.goodwinlaw.com/en/news-and-events/news/2026/11/announcements-technology-goodwin-advises-traversal-120-million-series-b"],
+  ["Silicon Report — Ocient", "https://www.siliconreport.com/ocient-raises-100-million-to-expand-agentic-ai-analytics"],
+  ["Robotics 24/7 — Tutor Intelligence", "https://www.robotics247.com/article/tutor-intelligence-raises-75m-series-b-to-scale-frontier-robotics-model-training-manufacturing-and-deployment"],
+  ["Business Insurance — Kalepa", "https://www.businessinsurance.com/ai-powered-insurance-startup-kalepa-valued-at-470-million/"],
+  ["TechCrunch — Dropbox·Tigris", "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/?amp="],
+  ["TechCrunch — Meta·Conductor", "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"],
+  ["TechCrunch — Palo Alto·Clutch", "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/"],
+  ["StrictlyVC — 최근 펀딩 소식", "https://newsletter.strictlyvc.com/"]
+ ],
+ "limits": "Crunchbase 주간 기사(11/6 발행, 집계 10/31~11/6)와 10월 월간 기사(11/3)는 WebFetch로 직접 열어 확인했습니다. 반면 TechCrunch 딜 기사는 검색에 거의 노출되지 않아 Washington Technology·Value Add VC·FourWeekMBA·RuntimeWire 등 2차 매체와 검색 요약으로 딜 카드를 구성했고, Axios Pro는 제목·요약만 보였으며 Axios 바이오 페이지는 403으로 막혔습니다. StrictlyVC는 Exits와 날짜별 항목을 확인하지 못했습니다. Crunchbase 목록이 공동 10위로 11건이라 카드는 10개로 맞추기 위해 Tutor를 쓰고 Kalepa를 others로 옮겼습니다. Shield AI는 주식 $2B만 금액으로 잡았고 부채 $500M은 제외했으며 Series H와 Blackstone 지분의 마감 구조는 매체마다 달라 [미확인]입니다. Shield AI 설립연도·공동 창업자 정보는 조사 기사에 없어 일반 지식에 기댄 [추정]입니다. CesiumAstro·Ocient·Tutor의 설립연도, Harbinger 창업자 이름, Applied Compute의 정확한 라운드 단계, Northwood의 $2B 밸류, Traversal의 pre-money, CrowdStrike 인수 세부, Anthropic IPO 일정은 [미확인]입니다. Anthropic IPO 일부 날짜는 예측·2차 사이트 정보라 신뢰도가 낮습니다. ARR·고객·배송 건수·밸류는 대부분 회사 주장 또는 2차 인용입니다. 사이트 URL은 추정 가능한 대표 도메인이라 일부가 틀릴 수 있습니다 [추정]."
+}
