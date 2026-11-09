@@ -62,8 +62,8 @@ def links(pairs):
 def validate(d, R):
     errs = [f"필드 누락: {k}" for k in REQ_TOP + [R["src"]] if not d.get(k)]
     deals = d.get("deals", [])
-    if len(deals) != 10:
-        errs.append(f"딜이 10개가 아님: {len(deals)}개")
+    if not 9 <= len(deals) <= 10:  # 금액 공개 딜이 9건뿐인 주 허용
+        errs.append(f"딜이 9~10개가 아님: {len(deals)}개")
     for x in deals:
         for k in REQ_DEAL + [R["amt"]]:
             if x.get(k) in (None, "", []):
